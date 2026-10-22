@@ -92,7 +92,9 @@ flowchart LR
 
 ## 网页与筛选的边界
 
-认知页从 `overview.md`、`discovery.json`、每景点的 `place.json`、落脚点与 `selection.json` 生成。卡片、GeoJSON、位置图和候选表共用点位和状态；地图编号是展示编号，禁止解释为行程顺序。位置图不画未经路由的道路或船行线，酒店直线距离只用于判断地理尺度。
+认知页从 `requirements.md`、`overview.md`、`discovery.json`、每景点的 `place.json`、落脚点与 `selection.json` 生成。卡片、GeoJSON、位置图和候选表共用点位和状态；地图编号是展示编号，禁止解释为行程顺序。位置图不画未经路由的道路或船行线，酒店直线距离只用于判断地理尺度。
+
+收到新偏好时，先更新旅程requirements.md，在selection.json的fit与blockers中逐项说明匹配与取舍，记录decisions.md。推荐级别不替代用户意向，status只在用户作出选择后更改；目的地知识仍保持可复用。地图图例与点位颜色同源，颜色表示区域而非距离或推荐等级。
 
 网页的区域/类型/文字筛选是查看工具；“比较”仅保存在页面内存，刷新即清空。复制初筛清单到对话、明确用户意向后，才修改 `selection.json`，随后重建网页。不能把浏览测试中的勾选当成用户已选。网页只发布明确允许的攻略字段和经检查的日计划生成物，不复制 `journal/`、`reviews/` 或 `private/`。
 

@@ -3,8 +3,8 @@
   "trip": "kk-draft",
   "sources": {
     "travel/trips/kk-draft/trip.json": "bcbfe19a929c4c9a3dc17c1012c48c7c56804106cf32eb28abf257aca4707e4a",
-    "travel/trips/kk-draft/selection.json": "26f26d4f4c956be629f773bba2d92e8132c68867b82473af49e3347e48e0666a",
-    "travel/trips/kk-draft/requirements.md": "95511e218a6aa002b9bfc36a1998c42ee28ac4baea6215c3da6d9c96d04c8d93",
+    "travel/trips/kk-draft/selection.json": "09562acfc0bb306495cf9efffed974569f1531982cb281839d18ba3feb97138b",
+    "travel/trips/kk-draft/requirements.md": "461959bfaabadf837b88e7a332470429569a8a4dd766a6e6e5069f4ce5fb815e",
     "travel/destinations/kota-kinabalu/destination.json": "39c8b549578289be633f8edda05f5cb5f4099a71dbc62f765da7a2611c23d7f9",
     "travel/destinations/kota-kinabalu/overview.md": "498200fbe343d06fde05b051118f994bad4a9a99cd0717dbcd62984b53e0420a",
     "travel/destinations/kota-kinabalu/discovery.json": "7daec1fcadc86ffc0d83cceb63b5d81bd80e42c88a944abd0e57e9ce2fda5b8a",
@@ -30,21 +30,21 @@
     "travel/destinations/kota-kinabalu/places/desa-dairy/place.json": "72280b87b1726ede56a5f49bc1da15654fb353c4d9ed4ea2c57a4abf4a7b1af8",
     "travel/destinations/kota-kinabalu/places/klias-river/place.json": "d3032b7f199ca176f86290bca66045ce946d648319559448fcb7d06da984a9c0",
     "skills/travel-workflow/assets/discovery/app.js": "6f312093285647cb991a4e6f5d7761b03095f90bd5bb4df18ac030faf9618d5f",
-    "skills/travel-workflow/assets/discovery/index.html": "6bdff1dbf7e69081470979bd4e9e841ed0db30d3b5dce798aca9df5f74241a23",
-    "skills/travel-workflow/assets/discovery/style.css": "048dac4a297ae83e11b250d6c620f89581c7a618072ecbb9c565035f9d456f2a",
-    "skills/travel-workflow/scripts/discovery_web.py": "3ab4ab6f42f0f3548d5343f6f6ee6c563c6e51a4fa2eb7128817dd024204c7b9",
+    "skills/travel-workflow/assets/discovery/index.html": "625866400d6a6082d88c594b471e9be85b8a4942fb9ccf490ba1d5a0ef89464b",
+    "skills/travel-workflow/assets/discovery/style.css": "df316bd80eb1ee69c31be763f259fa573df6b2ee1d7bad60f97f18aea3e2b586",
+    "skills/travel-workflow/scripts/discovery_web.py": "70ba356217f87fd8863b4efbcaaf2cc82dd2b6b1209d3037012c4fb26cc44006",
     "scripts/travel.py": "a4019e4a97bfb3bf776e747fe2ef31405abeb323af2fa958c209c11f691c22eb"
   },
   "files": {
     "recognition.geojson": "79acaba25e71fb05c319a54db0c3a5bb94bd51ec466b3e7280641c17fe16ade6",
-    "nearby.svg": "207864c2b9b0c3802a01788a9bfd108220ae879bf90e261e38d4afb21d13864e",
-    "regional.svg": "6150ffed71a1fdd95223dd45fbe1870cb12571b154b53587001055545849a29f",
-    "index.html": "c47624069397bb3ac2b6368ea23ff2e5500df28c921ddf56a5c8b95dfec9597a",
+    "nearby.svg": "2e3d93b7849bd6f6571eb99cb8babc5e97962a8dbbea0f72082fb7dc685ff817",
+    "regional.svg": "e523b26630053d2ffeea460408acbc589861a2613a28b385ee5e1239bec1c5ed",
+    "index.html": "07886aa95dbee98c2b3ff6fb3f0566be51d9b8372f347e98f487fcbd6da10a41",
     "app.js": "6f312093285647cb991a4e6f5d7761b03095f90bd5bb4df18ac030faf9618d5f",
-    "style.css": "048dac4a297ae83e11b250d6c620f89581c7a618072ecbb9c565035f9d456f2a"
+    "style.css": "df316bd80eb1ee69c31be763f259fa573df6b2ee1d7bad60f97f18aea3e2b586"
   },
   "companions": {
-    "candidates.md": "fc532b8eaf3a913010ee2bf43e648ab9b4072984cecbde94d20f7609987bb0c5",
+    "candidates.md": "68cb0e55f2bc52b7cae212b70c9d39d279b814e061807ce06aee784e6520d14a",
     "recognition.geojson": "79acaba25e71fb05c319a54db0c3a5bb94bd51ec466b3e7280641c17fe16ade6"
   }
 }

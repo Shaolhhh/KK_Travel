@@ -36,7 +36,7 @@ def markdown(text):
         else: parts.append('<p>'+inline(block).replace('\n','<br>')+'</p>')
     return ''.join(parts)
 
-def svg_map(features,regional=False):
+def svg_map(features,palette,regions,regional=False):
     """Coordinate diagram only: never fabricate coastlines, roads or routes."""
     points=[f for f in features if regional or (f['properties'].get('distance_km') or 0)<30]
     if regional:
@@ -55,6 +55,13 @@ def svg_map(features,regional=False):
         p=f['properties']; x,y=xy(f['geometry']['coordinates']); label=p['label']
         s.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="8" fill="{p["color"]}" stroke="white" stroke-width="2"/><text x="{x+10:.2f}" y="{y-7:.2f}" font-size="13">{esc(label)}</text>')
         s.append(f'<text x="710" y="{68+i*25}" font-size="14" fill="{p["color"]}">{esc(label+"  "+p["name"])}</text>')
+    # Keep the standalone download self-explanatory, using the marker palette.
+    s[0]=s[0].replace('height="610"','height="720"').replace('1100 610','1100 720')
+    s[1]=s[1].replace('height="610"','height="720"')
+    s.append('<text x="32" y="610" font-size="14">颜色＝地理分区，非距离范围或推荐等级；H橙色＝酒店，A/J深灰＝机场/码头，灰色P＝本次排除。</text>')
+    for i,(region,color) in enumerate(palette.items()):
+        x=32+(i%4)*265; y=640+(i//4)*30
+        s.append(f'<circle cx="{x+7}" cy="{y-5}" r="6" fill="{color}"/><text x="{x+21}" y="{y}" font-size="13">{esc(regions[region])}</text>')
     s.append('</g></svg>')
     return ''.join(s)
 
@@ -89,20 +96,24 @@ def build(root,key,folder,trip,destination,info,ready,check_only=False):
         dist=f'距酒店直线约 {km:g} km' if km is not None else '坐标或酒店位置待补充'
         details=''.join(f'<div class="fact"><dt>{title}</dt><dd>{inline(p.get(field,"待细化"))}</dd></div>' for title,field in [('开放与预约','access'),('费用口径','ticket_basis'),('交通判断','transport'),('食物方向','food'),('购物方向','shopping')])
         refs=' · '.join(f'<a href="{esc(safe_url(s["url"]))}" target="_blank" rel="noopener noreferrer">{esc(s["title"])}</a>' for s in p.get('sources',[]))
+        fit=selection[id].get('fit','')
+        blockers=selection[id].get('blockers','')
+        preference_html=(f'<div class="preference-fit"><p><b>本次偏好匹配 · 建议</b><br>{inline(fit)}</p>'+(f'<p><b>取舍与待确认</b><br>{inline(blockers)}</p>' if blockers else '')+'</div>') if fit else ''
         cards.append(f'''<article class="place-card" id="{esc(id)}" data-region="{esc(region)}" data-category="{esc(props['category'])}" data-status="{status}">
 <div class="card-top"><span class="place-number" style="--accent:{color}">{label}</span><span>{esc(props['region_name'])} · {esc(STATUS[status])}</span><label class="compare-label"><input type="checkbox" class="compare" value="{esc(id)}"> 比较</label></div>
 <h3>{esc(p['name'])}</h3><p class="local-name">{esc(p.get('local_name',''))}</p><p>{inline(p.get('summary',''))}</p>
 <div class="chips"><span>{esc(props['category'])}</span><span>{esc(d.get('effort','待确认'))}</span></div>
 <p class="fit"><b>怎么选</b> {inline(p.get('fit','待确认'))}</p><p class="meta">{esc(p.get('duration_advice','时长待确认'))}<br>{esc(dist)} · 非交通距离</p>
+{preference_html}
 <p class="caveat">{inline(d.get('caveat','信息待继续核实'))}</p><details><summary>查看费用、限制与来源</summary><dl>{details}</dl><p class="sources">核查：{esc(p.get('checked_at','未知'))}<br>{refs}</p><p class="sources">坐标：{esc(p.get('coordinate_precision','待确认'))} · <a href="{esc(safe_url(p.get('coordinate_source','')))}" target="_blank" rel="noopener noreferrer">点位来源</a></p></details><button class="locate" data-place="{esc(id)}">在地图中查看</button></article>''')
-        summary_rows.append('| '+' | '.join(str(x).replace('|','／').replace('\n',' ') for x in [label,p['name'],props['region_name'],STATUS[status],p.get('duration_advice','待定'),dist,p.get('fit',''),d.get('caveat','')])+' |')
+        summary_rows.append('| '+' | '.join(str(x).replace('|','／').replace('\n',' ') for x in [label,p['name'],props['region_name'],STATUS[status],p.get('duration_advice','待定'),dist,p.get('fit',''),d.get('caveat',''),fit or '尚未按本次偏好评估',blockers or '—'])+' |')
     for a in anchors:
         if not coord(a): continue
         kind='hotel' if a['id']==trip.get('hotel_id') else a.get('kind','anchor')
         props={'id':a['id'],'label':{'hotel':'H','airport':'A','jetty':'J'}.get(kind,'•'),'name':a['name'],'kind':kind,'color':'#b7682d' if kind=='hotel' else '#334a50','status':'reference','notes':a.get('notes',''),'coordinate_precision':a.get('coordinate_precision','待确认'),'coordinate_source':safe_url(a.get('coordinate_source','')),'distance_km':distance(hotel['coordinates'],a['coordinates']) if hotel and coord(hotel) else None}
         features.append({'type':'Feature','geometry':{'type':'Point','coordinates':a['coordinates']},'properties':props})
     geo={'type':'FeatureCollection','name':info['name']+'认知参考点','metadata':{'purpose':'候选位置认知；无具体日程、道路或船行路线','distance_basis':'从酒店到代表点的球面直线距离，非交通距离','point_attribution':'© OpenStreetMap contributors / ODbL；其他来源逐点标明'},'features':features}
-    outputs={'recognition.geojson':dump(geo).encode('utf8'),'nearby.svg':svg_map(features).encode('utf8'),'regional.svg':svg_map(features,True).encode('utf8')}
+    outputs={'recognition.geojson':dump(geo).encode('utf8'),'nearby.svg':svg_map(features,palette,regions).encode('utf8'),'regional.svg':svg_map(features,palette,regions,True).encode('utf8')}
     day_sections=[]
     for day_id in ready:
         generated=folder/'generated'/day_id
@@ -122,9 +133,12 @@ def build(root,key,folder,trip,destination,info,ready,check_only=False):
     template=(assets_dir/'index.html').read_text('utf8')
     values={'TITLE':esc(info['name']),'HEADLINE':esc(config.get('title','目的地认知与景点筛选')),'SUBTITLE':esc(config.get('subtitle','候选不等于日程，先比较体验与限制。')),'COUNT':str(len(order)),'REGION_COUNT':str(len(regions)),'DAY_COUNT':str(len(ready)),'CHECKED':esc(config.get('checked_at','见各来源')),'HOTEL':hotel_html,'REGION_OPTIONS':region_options,'CATEGORY_OPTIONS':cat_options,'CARDS':''.join(cards),'OVERVIEW':markdown((destination/'overview.md').read_text('utf8')),'PROMPTS':''.join('<li>'+inline(t)+'</li>' for t in config.get('comparison_prompts',[])),'DAY_VIEWS':''.join(day_sections) or '<p>尚未安排具体日期、顺序或时段。</p>','DATA':json.dumps({'geo':geo,'places':places,'bounds':config.get('map_nearby_bounds'),'trip':key,'destinationName':info['name']},ensure_ascii=False).replace('<','\\u003c')}
     for token,value in values.items(): template=template.replace('{{'+token+'}}',value)
+    legend=''.join(f'<span><i class="legend-swatch" style="--swatch:{color}" aria-hidden="true"></i>{esc(regions[region])}</span>' for region,color in palette.items())
+    template=template.replace('{{REGION_LEGEND}}',legend)
+    template=template.replace('{{REQUIREMENTS}}',markdown((folder/'requirements.md').read_text('utf8')))
     outputs['index.html']=template.encode('utf8')
     for name in ('app.js','style.css'): outputs[name]=(assets_dir/name).read_bytes()
-    candidates=('# '+info['name']+'主要景点候选\n\n由 `web` 命令从景点知识和本次筛选源生成。编号是检索编号，不是日程；时间为规划建议，距离为酒店到代表点的直线距离。\n\n| 编号 | 候选 | 区域 | 本次意向 | 时间投入 | 酒店参照 | 适合与取舍 | 主要限制 |\n|---|---|---|---|---|---|---|---|\n'+'\n'.join(summary_rows)+'\n').encode('utf8')
+    candidates=('# '+info['name']+'主要景点候选\n\n由 `web` 命令从景点知识和本次筛选源生成。编号是检索编号，不是日程；时间为规划建议，距离为酒店到代表点的直线距离。颜色表示地理分区，不代表距离或推荐等级。\n\n本次偏好见 [requirements.md](requirements.md)。匹配与取舍是基于资料的建议，不是用户已选结果或实地体验；正式意向以“本次意向”列为准。景点来源见各景点知识文件及网页卡片。\n\n| 编号 | 候选 | 区域 | 本次意向 | 时间投入 | 酒店参照 | 适合与取舍 | 主要限制 | 本次偏好匹配（建议） | 取舍与待确认 |\n|---|---|---|---|---|---|---|---|---|---|\n'+'\n'.join(summary_rows)+'\n').encode('utf8')
     out=root/'docs/site'/key
     manifest={'schema_version':1,'trip':key,'sources':sources,'files':{n:digest(b) for n,b in outputs.items()},'companions':{'candidates.md':digest(candidates),'recognition.geojson':digest(outputs['recognition.geojson'])}}
     if check_only:

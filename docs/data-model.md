@@ -18,7 +18,7 @@
 | 认知页结构 | `discovery.json`（可选） | 展示顺序不是日计划顺序 |
 | 浏览网页、候选表和位置地图 | `web` 命令生成 | 不手改 `docs/site/` 或 `candidates.md` |
 
-`selection.json` 的 `items` 每条含 `place_id`、`status`、`reason`，可补 `fit`、`blockers`、`evidence`。`status` 为 `candidate`（待筛选）、`shortlist`（优先考虑）、`excluded`（本次排除）。它表达意向，`days[].stops` 才表示排入当天；排除项不能同时在活动日程中。某天取消后可仍保留为旅程备选。
+`selection.json` 的 `items` 每条含 `place_id`、`status`、`reason`，可补文本字段 `fit`（本次偏好匹配建议）、`blockers`（取舍与待确认）、`evidence`（建议依据）。`fit`和`blockers`展示在网页卡片及候选表，不改变status；通用景点知识不保存个人偏好。`status` 为 `candidate`（待筛选）、`shortlist`（优先考虑）、`excluded`（本次排除）。它表达意向，`days[].stops` 才表示排入当天；排除项不能同时在活动日程中。某天取消后可仍保留为旅程备选。
 
 ## 草稿与可生成状态
 
@@ -66,6 +66,10 @@ python scripts/travel.py serve --trip trip-id --port 8765
 `fetch` 是唯一联网取道路的入口，只补缺失路段，主动更新用 `--refresh`。OSRM/FOSSGIS 响应按提供方/模式/方向/坐标缓存，往返各查；带 User-Agent，串行间隔至少 1.1 秒。无效响应先拒绝，保留已有缓存；不回退直线。刷新后需重新生成受影响日期。
 
 `web` 不要求日计划 ready，可从空草稿生成认知页；不自动选择或安排景点。它发布 `docs/site/<trip-id>/`，生成本次 `candidates.md` 与目的地 `maps/recognition.geojson`。每次攻略更新后执行 `web` 和 `web-check`，网页与源文件一同按授权同步GitHub。只读取明确的知识、选择和经校验的日计划输出，不复制私人附件或实际日志。`web-serve` 仅暴露 `docs/site/`，入口为 `http://127.0.0.1:<port>/<trip-id>/`；GitHub文件页不提供HTML运行环境。
+
+`requirements.md`保存已确认需求及明确标为建议的执行尺度，会显示在浏览网页。仅写入可公开的旅行偏好与条件；预订凭证和私人细节放private。推荐建议不能冒充用户已选择，疲劳判断需包含交通与气候负担。
+
+地图区域图例与点位共用同一配色；颜色按地理区域区分，不表示距离或推荐等级。H酒店为橙色，A机场/J码头为深灰，excluded景点为灰色；网页及独立SVG都有说明。
 
 可选 `discovery.json` 包含 `regions`（区域ID到名称）、`display_order`（景点展示顺序）、`reference_anchors`（如出海码头）、`map_nearby_bounds`（Leaflet纬经度边界）、`comparison_prompts`（比较建议）。每个景点可增加 `research_stage=discovery` 和 `discovery` 对象：`region`、`effort`、`tags`、`caveat`。主字段仍是唯一事实来源，不在网页配置重复维护票价或坐标。
 

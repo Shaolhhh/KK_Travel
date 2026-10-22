@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-10-21T08:59:26.579Z",
+  "url": "http://127.0.0.1:8765/",
+  "results": [
+    {
+      "case": "01-baseline",
+      "markers": [
+        {
+          "id": "atkinson-clock-tower",
+          "label": "1"
+        },
+        {
+          "id": "sabah-museum",
+          "label": "2"
+        },
+        {
+          "id": "tanjung-aru",
+          "label": "3"
+        },
+        {
+          "id": "sheraton-kota-kinabalu",
+          "label": "H"
+        },
+        {
+          "id": "bki-terminal-1",
+          "label": "A"
+        }
+      ],
+      "roadPaths": 6,
+      "summary": "三景点原始计划",
+      "tiles": 6
+    },
+    {
+      "case": "02-cancel",
+      "loadedTiles": 2,
+      "markers": [
+        {
+          "id": "atkinson-clock-tower",
+          "label": "1"
+        },
+        {
+          "id": "tanjung-aru",
+          "label": "2"
+        },
+        {
+          "id": "sheraton-kota-kinabalu",
+          "label": "H"
+        },
+        {
+          "id": "bki-terminal-1",
+          "label": "A"
+        }
+      ],
+      "roadPaths": 5,
+      "summary": "取消博物馆"
+    },
+    {
+      "case": "03-reorder",
+      "markers": [
+        {
+          "id": "tanjung-aru",
+          "label": "1"
+        },
+        {
+          "id": "atkinson-clock-tower",
+          "label": "2"
+        },
+        {
+          "id": "sheraton-kota-kinabalu",
+          "label": "H"
+        },
+        {
+          "id": "bki-terminal-1",
+          "label": "A"
+        }
+      ],
+      "roadPaths": 5,
+      "summary": "海滩改早上，钟楼改下午"
+    },
+    {
+      "case": "layer-toggle",
+      "noArrival": 4,
+      "dayOnly": 3,
+      "noDay": {
+        "paths": 0,
+        "markers": [
+          "H",
+          "A"
+        ]
+      }
+    },
+    {
+      "case": "airport-popup",
+      "text": "A. 亚庇国际机场 T1\nOSM航站楼建筑代表点；需核对航班实际航站楼、到达/出发楼层和接送车道"
+    },
+    {
+      "scenario": "current-final",
+      "failedTiles": 0,
+      "loadedTiles": 6,
+      "markers": [
+        "1",
+        "2",
+        "H",
+        "A"
+      ],
+      "roadPaths": 5,
+      "logs": [],
+      "beachPopup": "丹绒亚路海滩 09:00–11:00"
+    }
+  ]
+}

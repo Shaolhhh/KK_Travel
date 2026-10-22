@@ -1,0 +1,15 @@
+{
+  "id": "replace-trip-day-id",
+  "revision": "01-draft",
+  "status": "draft",
+  "title": "待确认的一天",
+  "date": null,
+  "timezone": null,
+  "simulation": false,
+  "traveler_basis": "人数、票种和预算口径未确认；不推断用户国籍或年龄。",
+  "reason": "尚未选择当天景点",
+  "stops": [],
+  "cancelled": [],
+  "breaks": [],
+  "constraints": ["日期、开放范围及转场安排待核实"]
+}

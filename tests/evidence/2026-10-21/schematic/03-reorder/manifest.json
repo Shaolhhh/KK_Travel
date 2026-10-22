@@ -1,0 +1,31 @@
+{
+  "active_ids": [
+    "tanjung-aru",
+    "atkinson-clock-tower"
+  ],
+  "cancelled_ids": [
+    "sabah-museum"
+  ],
+  "files": {
+    "candidates.md": "86a2f144e1f75fc1626a8413f2009c65161eafb21068f7eb6878b77ba9d6df6b",
+    "itinerary.md": "1b0bcf0a6c3df8f00418e7792185894cd74e01e6a5fe469f6a60d45069aa061a",
+    "maps/overview.png": "07207152d8408dbcb718b2f60a3eab258fe7c7a005206e33d597dd9d19281414",
+    "maps/route.geojson": "dbf7464a9cdb7dd53324d121dc2b4bd2c26c1a84efa7045cb41e9148a98a7c90",
+    "maps/route.html": "a2af4022c70bb519b0e3a78bffc6aca63d72be9845ac7cedf3438dd80e9b7aaf",
+    "places/atkinson-clock-tower/README.md": "51e9c728bd51301d6356d45940d0ae85ee786caa04a0c78a26b72424f112d41b",
+    "places/atkinson-clock-tower/maps/overview.png": "4bc8b00981ee067368fb420e5760a831afc25be7dc1155b065fa341d46e3b43d",
+    "places/atkinson-clock-tower/maps/route.geojson": "8edcd4048a15f9e3ecea6dea72f95ba60125a163d6f3a8fdd0ea16de6313924e",
+    "places/atkinson-clock-tower/maps/route.html": "e92ea382e5c037126d6a6c9b4a3cb1ee5b5808d7dc44a5fe71e978ca5e380f6c",
+    "places/sabah-museum/README.md": "6e3e3f3056787ffeece649c823b910e8c3dae22bf7148cdddb0d90bd111ea5ad",
+    "places/sabah-museum/maps/overview.png": "13042710cae4e08fb217b4809a314482527c0c84e75b43bfee6559f81dbca013",
+    "places/sabah-museum/maps/route.geojson": "20cdbfbd6750a75d589fed4fd85a4ba94f67e7d4ddca1d59e34c1c5576294016",
+    "places/sabah-museum/maps/route.html": "66fd0cedc81c24e81f00d5d4604655de1076904287d60746006d76d75cd196b0",
+    "places/tanjung-aru/README.md": "9556aa5023a10aa88f32d0d7d6acdaf88da565f88e1a0a18a623575153d76dff",
+    "places/tanjung-aru/maps/overview.png": "8de201cebb6f043f2299dc1d39081cc31de5ca8a2f329e19d6dd74689f190629",
+    "places/tanjung-aru/maps/route.geojson": "cea69d4d8ac9ef0da1f87fe85f0ba796e9137f5db2f8532051b8305c2df8686d",
+    "places/tanjung-aru/maps/route.html": "d9dfea4ddbe9e5eb3151c5f59e92693c424440048d784a54eae3244c6ddbc492"
+  },
+  "known_ticket_myr": 0,
+  "revision": "03-reorder",
+  "source_digest": "48c50cdebc821dd54cff2f6c767ed1975dfbc2a3b32b5d2544f53cfeb2133bd4"
+}

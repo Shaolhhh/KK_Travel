@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_22841ea360fc3c3676a3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;top:12px;left:60px;z-index:1000;background:white;padding:12px;max-width:70%;font:15px sans-serif"><b>艾京生钟楼 · 位置参考</b><br>虚线为顺序示意；道路交通未核实。底图和脚本需联网。<br>点击点位查看时段；坐标来源见景点攻略。</div>
+    <script id="travel-data" type="application/json">{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          116.077306,
+          5.982194
+        ],
+        "type": "Point"
+      },
+      "id": "atkinson-clock-tower",
+      "properties": {
+        "name": "艾京生钟楼",
+        "place_id": "atkinson-clock-tower",
+        "source_digest": "fc9117e1238fa8ad47d7c718134c259e629a50298cf9effd9dab3fb635253883",
+        "status": "本次第2站 · 14:00–14:45 · 计划，未实际游览"
+      },
+      "type": "Feature"
+    }
+  ],
+  "source_digest": "fc9117e1238fa8ad47d7c718134c259e629a50298cf9effd9dab3fb635253883",
+  "type": "FeatureCollection"
+}</script>
+    
+            <div class="folium-map" id="map_22841ea360fc3c3676a3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_22841ea360fc3c3676a3 = L.map(
+                "map_22841ea360fc3c3676a3",
+                {
+                    center: [5.982194, 116.077306],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_22841ea360fc3c3676a3);
+
+            
+
+        
+    
+            var tile_layer_f173fccbd9a6ed609353 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f173fccbd9a6ed609353.addTo(map_22841ea360fc3c3676a3);
+        
+    
+            var marker_9b461b2a4f59e6f8f655 = L.marker(
+                [5.982194, 116.077306],
+                {
+}
+            ).addTo(map_22841ea360fc3c3676a3);
+        
+    
+            var div_icon_86e521b0c2889cd346ca = L.divIcon({
+  "html": "\u003cdiv style=\"background:#147d83;color:white;width:28px;height:28px;border-radius:50%;text-align:center;line-height:28px;font-weight:bold\"\u003e\u2022\u003c/div\u003e",
+  "className": "empty",
+});
+        
+    
+        var popup_d13d9127be5267bc8a5d = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_f6e7937bdf834c0b4074 = $(`<div id="html_f6e7937bdf834c0b4074" style="width: 100.0%; height: 100.0%;">•. 艾京生钟楼 <br>参考点；入口及交通待核实</div>`)[0];
+                popup_d13d9127be5267bc8a5d.setContent(html_f6e7937bdf834c0b4074);
+            
+        
+
+        marker_9b461b2a4f59e6f8f655.bindPopup(popup_d13d9127be5267bc8a5d)
+        ;
+
+        
+    
+    
+            marker_9b461b2a4f59e6f8f655.bindTooltip(
+                `<div>
+                     •. 艾京生钟楼 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b461b2a4f59e6f8f655.setIcon(div_icon_86e521b0c2889cd346ca);
+            
+</script>
+</html>

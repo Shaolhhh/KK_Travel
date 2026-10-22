@@ -1,0 +1,13 @@
+{
+  "id": "bki-terminal-1",
+  "kind": "airport",
+  "name": "亚庇国际机场 T1",
+  "local_name": "Kota Kinabalu International Airport — Terminal 1 (BKI)",
+  "coordinates": [116.051328, 5.923060],
+  "address": "KKIA Terminal 1, Kota Kinabalu, Sabah, Malaysia",
+  "source": "https://www.openstreetmap.org/way/758270672",
+  "coordinate_source": "https://mapy.com/en/?id=1056302676&source=osm",
+  "coordinate_precision": "OSM航站楼建筑代表点；需核对航班实际航站楼、到达/出发楼层和接送车道",
+  "checked_at": "2026-10-21",
+  "notes": "机场按BKI T1作为测试接送点。无航班日期和时刻，机场往返单独展示，不混入日游时间表；入境、取行李、值机和提前到机场的时间均未计入道路耗时。"
+}

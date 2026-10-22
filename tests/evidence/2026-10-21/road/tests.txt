@@ -1,0 +1,48 @@
+﻿python.exe : test_get_and_head_only_serve_allowed_map_assets (test_map_server.MapServerTests.test_get_and_head_only_ser
+ve_allowed_map_assets) ... 127.0.0.1 - - [21/Oct/2026 16:58:01] "GET /index.html HTTP/1.1" 200 -
+所在位置 行:3 字符: 1
++ & $travelPython -X utf8 -m unittest discover -s tests -v 2>&1 | Tee-O ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_get_and_he...HTTP/1.1" 200 -:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+127.0.0.1 - - [21/Oct/2026 16:58:01] code 403, message Forbidden
+127.0.0.1 - - [21/Oct/2026 16:58:01] "GET /private.txt HTTP/1.1" 403 -
+127.0.0.1 - - [21/Oct/2026 16:58:01] "HEAD /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Oct/2026 16:58:01] code 403, message Forbidden
+127.0.0.1 - - [21/Oct/2026 16:58:01] "HEAD /private.txt HTTP/1.1" 403 -
+ok
+test_cancel_and_reorder_replace_leg_geometry_keep_anchors (test_roads.RoadTests.test_cancel_and_reorder_replace_leg_geo
+metry_keep_anchors) ... ok
+test_coordinates_change_cannot_reuse_old_route (test_roads.RoadTests.test_coordinates_change_cannot_reuse_old_route) ..
+. ok
+test_driving_request_must_not_silently_use_straight_lines (test_roads.RoadTests.test_driving_request_must_not_silently_
+use_straight_lines) ... ok
+test_invalid_refresh_preserves_previous_cache_and_valid_refresh_replaces_it (test_roads.RoadTests.test_invalid_refresh_
+preserves_previous_cache_and_valid_refresh_replaces_it) ... ok
+test_missing_routes_leave_previous_output_untouched (test_roads.RoadTests.test_missing_routes_leave_previous_output_unt
+ouched) ... ok
+test_real_cached_routes_include_round_trip_and_direction (test_roads.RoadTests.test_real_cached_routes_include_round_tr
+ip_and_direction) ... ok
+test_road_html_tamper_is_detected_even_when_embedded_json_unchanged (test_roads.RoadTests.test_road_html_tamper_is_dete
+cted_even_when_embedded_json_unchanged) ... ok
+test_route_cache_refresh_invalidates_old_output (test_roads.RoadTests.test_route_cache_refresh_invalidates_old_output) 
+... ok
+test_too_short_transfer_gap_is_rejected (test_roads.RoadTests.test_too_short_transfer_gap_is_rejected) ... ok
+test_cancel_then_reorder_updates_all_views (test_sync.SyncTests.test_cancel_then_reorder_updates_all_views) ... ok
+test_duplicated_ids_and_inconsistent_time_rejected (test_sync.SyncTests.test_duplicated_ids_and_inconsistent_time_rejec
+ted) ... ok
+test_invalid_stop_does_not_overwrite_good_build (test_sync.SyncTests.test_invalid_stop_does_not_overwrite_good_build) .
+.. ok
+test_missing_guide_cannot_be_hidden_by_manifest (test_sync.SyncTests.test_missing_guide_cannot_be_hidden_by_manifest) .
+.. ok
+test_old_source_and_tampered_map_are_detected (test_sync.SyncTests.test_old_source_and_tampered_map_are_detected) ... o
+k
+test_rebuild_is_idempotent_and_preserves_notes (test_sync.SyncTests.test_rebuild_is_idempotent_and_preserves_notes) ...
+ ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 7.479s
+
+OK
+

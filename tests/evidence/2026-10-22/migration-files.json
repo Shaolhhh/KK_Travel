@@ -1,0 +1,182 @@
+﻿[
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\anchors.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\anchors.md",
+        "sha256":  "5BEC4CCCF1B1733B8388623D50213030B2B0FD0300251A5D1A1EBF63259B3393"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\candidates.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\candidates.md",
+        "sha256":  "B3B3443D76017D82DFBEFDD4804A8F7B437F055090B0E1878F16D90A83EB8943"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\itinerary.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\itinerary.md",
+        "sha256":  "5253CAE37F3E3F1AFA9010868C4BF5ECEE60879CF616BC57688C49C456C167B6"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\manifest.json",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\manifest.json",
+        "sha256":  "83F6AAC2E542CF1C99D87724E32F264AA1C2011C52BDCC69F9D0BD7A744A78D3"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\routing.json",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\routing.json",
+        "sha256":  "8EFF50D535F7D76E0DC76F05885B3FF0004A86149762A5E57307287009534453"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\maps\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\maps\\overview.png",
+        "sha256":  "2FA66052C9FBE0DE294E3AEC1B5EEE65DD153D1F5D27AB9D4A28BCB564E6ECEA"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\maps\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\maps\\route.geojson",
+        "sha256":  "C514371B61F8692B9751309F2E4D6B077526A2AD69623446696260015CFA3681"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\maps\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\maps\\route.html",
+        "sha256":  "AE05404951E6ED48AF02CD5663CEDAE1EE60FEB0D90E090EE857565651578C3D"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\atkinson-clock-tower\\README.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\atkinson-clock-tower\\README.md",
+        "sha256":  "9293F4D9D0537278C370606AEE7FA73B99B56BDEDCE539C2BFAB0D7C486675BE"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\atkinson-clock-tower\\maps\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\atkinson-clock-tower\\maps\\overview.png",
+        "sha256":  "4BC8B00981EE067368FB420E5760A831AFC25BE7DC1155B065FA341D46E3B43D"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\atkinson-clock-tower\\maps\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\atkinson-clock-tower\\maps\\route.geojson",
+        "sha256":  "66A341429D9A4B13717AD37D8EA2971034B17386F541C50D78C9FAA4E4DF8A63"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\atkinson-clock-tower\\maps\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\atkinson-clock-tower\\maps\\route.html",
+        "sha256":  "AAC598742E6DAB4E2992337D3CF49BE56ECA05EF4AA0FFEB92B6110B41E78613"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\sabah-museum\\README.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\sabah-museum\\README.md",
+        "sha256":  "F428332B17F43D6AE8677B353459C6078BD243B45F8FED371B4B161ACBB5778A"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\sabah-museum\\maps\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\sabah-museum\\maps\\overview.png",
+        "sha256":  "13042710CAE4E08FB217B4809A314482527C0C84E75B43BFEE6559F81DBCA013"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\sabah-museum\\maps\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\sabah-museum\\maps\\route.geojson",
+        "sha256":  "FA3749AFC7E30581313B260AED905A4CE83A537536127377BC27C654E9400D4B"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\sabah-museum\\maps\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\sabah-museum\\maps\\route.html",
+        "sha256":  "592D35A2AF377BB45891D674055D9E07B035BE3162665FB0B8B3F900F27D2C67"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\tanjung-aru\\README.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\tanjung-aru\\README.md",
+        "sha256":  "753EE6E7E884D99D5FCBBC180AD725585CDEAD750A49850F89C14390B46C9B47"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\tanjung-aru\\maps\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\tanjung-aru\\maps\\overview.png",
+        "sha256":  "8DE201CEBB6F043F2299DC1D39081CC31DE5CA8A2F329E19D6DD74689F190629"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\tanjung-aru\\maps\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\tanjung-aru\\maps\\route.geojson",
+        "sha256":  "046853C85CEAAD576E296EC3DCFC91E140A32F24D3EDF416E7EA36E152588587"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\current\\places\\tanjung-aru\\maps\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\road\\places\\tanjung-aru\\maps\\route.html",
+        "sha256":  "6918BCB8DB66C7E270555E931601F98361DC644476EE1C826E4C177369D21F27"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\index.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\index.html",
+        "sha256":  "8A6ADFA2832A16F14C8A7DB5F79CC5FBBA68E2282395F32B6216F7461E9941C6"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\01-baseline\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\01-baseline\\overview.png",
+        "sha256":  "A122DEA0FADA4355052DD5678D98186303CBC728BAFC20E92D7EB5983F560496"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\01-baseline\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\01-baseline\\route.geojson",
+        "sha256":  "62BC6CEFF236FD37A51360526C02C9D41265F0E5B2F1D21E4B23F872812EC055"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\01-baseline\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\01-baseline\\route.html",
+        "sha256":  "F3833F67D9753F634BC5AF2443DBF65E430A1FC428F2FFDD377A59456C717D97"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\02-cancel\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\02-cancel\\overview.png",
+        "sha256":  "B56E2F9047E07BC8E9D7E094F80FC06D9B5E9B35799F1043BB071523A09934C8"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\02-cancel\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\02-cancel\\route.geojson",
+        "sha256":  "2BB0EDE059AB0894446E6A702C37843936C9489407882CD5EE5EB7E8DF11196B"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\02-cancel\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\02-cancel\\route.html",
+        "sha256":  "3C8EBE27EE33B6B7A0D6AFAB8F0809E50DFE5A515A516F469D84B270F579DBD2"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\03-reorder\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\03-reorder\\overview.png",
+        "sha256":  "2FA66052C9FBE0DE294E3AEC1B5EEE65DD153D1F5D27AB9D4A28BCB564E6ECEA"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\03-reorder\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\03-reorder\\route.geojson",
+        "sha256":  "C514371B61F8692B9751309F2E4D6B077526A2AD69623446696260015CFA3681"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\03-reorder\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\03-reorder\\route.html",
+        "sha256":  "AE05404951E6ED48AF02CD5663CEDAE1EE60FEB0D90E090EE857565651578C3D"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\current\\overview.png",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\current\\overview.png",
+        "sha256":  "2FA66052C9FBE0DE294E3AEC1B5EEE65DD153D1F5D27AB9D4A28BCB564E6ECEA"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\current\\route.geojson",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\current\\route.geojson",
+        "sha256":  "C514371B61F8692B9751309F2E4D6B077526A2AD69623446696260015CFA3681"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\site\\current\\route.html",
+        "to":  "D:\\2026\\KK_Travel\\tests\\output\\site\\current\\route.html",
+        "sha256":  "AE05404951E6ED48AF02CD5663CEDAE1EE60FEB0D90E090EE857565651578C3D"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\demo\\notes.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\evidence\\2026-10-21\\schematic\\notes.md",
+        "sha256":  "CCA3D08B62CA2AD68E0BA54D4827FE0E5F673BE1B77ACEDAB6141043574EED4E"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\VALIDATION.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\evidence\\2026-10-21\\schematic\\VALIDATION.md",
+        "sha256":  "E55B1B1A6526E17445726582E51329F1725F388DF8CD2ED5434888F273D75513"
+    },
+    {
+        "from":  "D:\\2026\\KK_Travel\\road-demo\\VALIDATION.md",
+        "to":  "D:\\2026\\KK_Travel\\tests\\evidence\\2026-10-21\\road\\VALIDATION.md",
+        "sha256":  "BF426B042F17ABA18A51EA821C56BA4D7DAE11BE4B4DBBC3B2EB5A3E64B99946"
+    }
+]

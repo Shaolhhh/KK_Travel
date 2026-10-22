@@ -1,0 +1,48 @@
+{
+  "id": "kk-demo-day",
+  "revision": "01-baseline",
+  "title": "三景点原始计划",
+  "date": null,
+  "timezone": "Asia/Kuching",
+  "simulation": true,
+  "traveler_basis": "仅为验证：1名成人，门票参照非马来西亚游客档；无用户国籍假设。",
+  "reason": "建立城市历史—地方文化—海滨风景的三点样本。",
+  "stops": [
+    {
+      "place_id": "atkinson-clock-tower",
+      "start": "09:00",
+      "end": "09:45",
+      "period": "morning"
+    },
+    {
+      "place_id": "sabah-museum",
+      "start": "11:00",
+      "end": "13:00",
+      "period": "morning"
+    },
+    {
+      "place_id": "tanjung-aru",
+      "start": "16:30",
+      "end": "18:30",
+      "period": "afternoon"
+    }
+  ],
+  "cancelled": [],
+  "breaks": [
+    "09:45–11:00 转场与缓冲；道路模型车程见交通表，候车与实时路况待查",
+    "13:00–16:30 午餐、休息与转场；餐厅待选"
+  ],
+  "constraints": [
+    "博物馆须先确认开放范围；此为有条件计划",
+    "18:30仅为示例结束时间，不是经核实的日落时刻",
+    "真实道路路线为OSRM模型；不含实时堵车、候车和价格",
+    "BKI T1接送待航班确认，往返不假设与日游同一天"
+  ],
+  "travel": {
+    "hotel_id": "sheraton-kota-kinabalu",
+    "airport_id": "bki-terminal-1",
+    "profile": "driving",
+    "buffer_minutes": 15,
+    "max_snap_m": 250
+  }
+}

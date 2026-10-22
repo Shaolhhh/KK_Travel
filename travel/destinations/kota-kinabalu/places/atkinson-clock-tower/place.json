@@ -1,0 +1,40 @@
+{
+  "id": "atkinson-clock-tower",
+  "name": "艾京生钟楼",
+  "local_name": "Atkinson Clock Tower / Menara Jam Atkinson",
+  "aliases": [
+    "亚庇钟楼",
+    "阿特金森钟楼"
+  ],
+  "coordinates": [
+    116.077306,
+    5.982194
+  ],
+  "coordinate_source": "https://www.wikidata.org/wiki/Q4281727",
+  "coordinate_precision": "地标位置；不是已核实的上下车点或入口",
+  "checked_at": "2026-10-21",
+  "category": "城市历史",
+  "summary": "建于1905年的纪念钟楼，可作为认识亚庇城市历史的入口。背景资料来自沙巴旅游局日文介绍；可先考虑外观观察，具体安排待选择。",
+  "fit": "适合喜欢城市历史、愿意短暂停留的人；若期待大型展览，可降低优先级。",
+  "duration_advice": "30–45分钟（研究阶段的时长建议，非官方规定）",
+  "access": "旅游局2023年文章曾提示临时关闭；这不能证明2026年仍关闭或已经重开。近距离通道和可参观范围待出行前确认。",
+  "ticket_myr": null,
+  "ticket_basis": "外观参观费用未核实；不把未知写成免费。",
+  "transport": "按英文地标名查找目的地，抵达后核对可通行入口。此次未核实公交、叫车价格、道路路线和步行耗时。",
+  "food": "建议在市区另设午餐时段；具体店铺、营业时间、饮食要求待选，不预填推荐商家。",
+  "shopping": "用户购物需求未知；若想购买城市文化相关书籍或纪念品，另查店铺与营业信息。",
+  "photo": {
+    "morning": "上午拍钟楼外观及街景；机位以公共可达区域为准。",
+    "afternoon": "下午拍钟楼与街区关系；现场观察光线，避开车辆通行空间。"
+  },
+  "equipment": "建议带饮水、防晒、轻便雨具和舒适步行鞋；天气待出行日期确定后查询。",
+  "language": "向司机展示 Atkinson Clock Tower；问路可用 ‘Where is the public entrance?’。",
+  "culture_prompt": "观察纪念性建筑如何参与城市记忆；这是待观察问题，不代表已经游览或认同某种历史叙事。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：钟楼介绍（2023年资料）",
+      "url": "https://japan.sabahtourism.com/2023/06/08/%E6%B0%97%E8%BB%BD%E3%81%AB%E8%A1%8C%E3%81%91%E3%82%8B%E3%82%B3%E3%82%BF%E3%82%AD%E3%83%8A%E3%83%90%E3%83%AB%E3%81%AE%E8%A6%B3%E5%85%89%E5%90%8D%E6%89%80%E3%80%81%E3%82%A2%E3%83%88%E3%82%AD%E3%83%B3/"
+    }
+  ],
+  "provenance_note": "从2026-10-21研究资料迁入；未重新联网核实，模拟日程不随资料迁入。"
+}

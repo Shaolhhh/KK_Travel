@@ -1,0 +1,23 @@
+[
+  {
+    "check": "tests",
+    "exit_code": 0
+  },
+  {
+    "check": "schematic-replay",
+    "exit_code": 0
+  },
+  {
+    "check": "road-replay",
+    "exit_code": 0
+  },
+  {
+    "check": "formal-draft",
+    "exit_code": 0
+  },
+  {
+    "check": "formal-source-unchanged",
+    "files": 13,
+    "ok": true
+  }
+]

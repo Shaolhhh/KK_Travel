@@ -1,0 +1,33 @@
+[
+  {
+    "revision": "01-baseline",
+    "order": [
+      "atkinson-clock-tower",
+      "sabah-museum",
+      "tanjung-aru"
+    ],
+    "known_ticket_myr": 15,
+    "checked_files": 17,
+    "source_digest": "17a7524692a5e3dd2388c845f778d2260a18f4c6cb4af95fd3d0120ceeba4e18"
+  },
+  {
+    "revision": "02-cancel",
+    "order": [
+      "atkinson-clock-tower",
+      "tanjung-aru"
+    ],
+    "known_ticket_myr": 0,
+    "checked_files": 17,
+    "source_digest": "b2f6d80872590bb3549bd15f61cbaf29e421411f0aec5ce8aed16c4d65cad140"
+  },
+  {
+    "revision": "03-reorder",
+    "order": [
+      "tanjung-aru",
+      "atkinson-clock-tower"
+    ],
+    "known_ticket_myr": 0,
+    "checked_files": 17,
+    "source_digest": "48c50cdebc821dd54cff2f6c767ed1975dfbc2a3b32b5d2544f53cfeb2133bd4"
+  }
+]

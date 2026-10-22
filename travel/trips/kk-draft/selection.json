@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "place_id": "atkinson-clock-tower",
+      "status": "candidate",
+      "reason": "已研究的示例候选；用户尚未确认是否入选正式旅程。",
+      "evidence": "2026-10-22将测试与实际旅行资料分开；无正式景点选择。"
+    },
+    {
+      "place_id": "sabah-museum",
+      "status": "candidate",
+      "reason": "已研究的示例候选；用户尚未确认是否入选正式旅程。",
+      "evidence": "2026-10-22将测试与实际旅行资料分开；无正式景点选择。"
+    },
+    {
+      "place_id": "tanjung-aru",
+      "status": "candidate",
+      "reason": "已研究的示例候选；用户尚未确认是否入选正式旅程。",
+      "evidence": "2026-10-22将测试与实际旅行资料分开；无正式景点选择。"
+    }
+  ]
+}

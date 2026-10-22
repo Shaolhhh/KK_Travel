@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "kk-draft",
+  "destination_id": "kota-kinabalu",
+  "title": "亚庇旅行 · 待确定日期",
+  "status": "planning",
+  "dates": {
+    "start": null,
+    "end": null
+  },
+  "transport_mode": "driving",
+  "hotel_id": "sheraton-kota-kinabalu",
+  "airport_id": "bki-terminal-1",
+  "transfer_buffer_minutes": 15,
+  "budget_currency": "MYR",
+  "budget_note": "当前工具只计算MYR已知门票小计；币种和票种须按目的地及旅伴确认。",
+  "airport_confirmation": "provisional-until-flight-confirmed"
+}

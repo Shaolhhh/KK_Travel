@@ -1,0 +1,11 @@
+test_cancel_then_reorder_updates_all_views (test_sync.SyncTests.test_cancel_then_reorder_updates_all_views) ... ok
+test_duplicated_ids_and_inconsistent_time_rejected (test_sync.SyncTests.test_duplicated_ids_and_inconsistent_time_rejected) ... ok
+test_invalid_stop_does_not_overwrite_good_build (test_sync.SyncTests.test_invalid_stop_does_not_overwrite_good_build) ... ok
+test_missing_guide_cannot_be_hidden_by_manifest (test_sync.SyncTests.test_missing_guide_cannot_be_hidden_by_manifest) ... ok
+test_old_source_and_tampered_map_are_detected (test_sync.SyncTests.test_old_source_and_tampered_map_are_detected) ... ok
+test_rebuild_is_idempotent_and_preserves_notes (test_sync.SyncTests.test_rebuild_is_idempotent_and_preserves_notes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.442s
+
+OK

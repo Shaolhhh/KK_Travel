@@ -1,0 +1,13 @@
+{
+  "id": "kk-demo-day", "revision": "02-cancel", "title": "取消博物馆",
+  "date": null, "timezone": "Asia/Kuching", "simulation": true,
+  "traveler_basis": "仅为验证：1名成人，门票参照非马来西亚游客档；无用户国籍假设。",
+  "reason": "模拟用户取消博物馆；保留研究资料，增加休息空间。",
+  "stops": [
+    {"place_id": "atkinson-clock-tower", "start": "09:00", "end": "09:45", "period": "morning"},
+    {"place_id": "tanjung-aru", "start": "16:30", "end": "18:30", "period": "afternoon"}
+  ],
+  "cancelled": [{"place_id": "sabah-museum", "reason": "模拟取消；不是实际去过或确认闭馆"}],
+  "breaks": ["09:45–16:30 自由午餐、休息与交通缓冲；空档不强行填满景点"],
+  "constraints": ["确切日落时间与返程交通待日期确定后核实"]
+}

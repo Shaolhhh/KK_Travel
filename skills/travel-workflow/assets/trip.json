@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "replace-trip-id",
+  "destination_id": "replace-destination-id",
+  "title": "待命名旅程",
+  "status": "planning",
+  "dates": {"start": null, "end": null},
+  "transport_mode": null,
+  "hotel_id": null,
+  "airport_id": null,
+  "transfer_buffer_minutes": 15,
+  "budget_currency": "MYR",
+  "budget_note": "当前工具只计算MYR已知门票小计；币种和票种须按目的地及旅伴确认。"
+}

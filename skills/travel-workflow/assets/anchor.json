@@ -1,0 +1,13 @@
+{
+  "id": "replace-stable-anchor-id",
+  "kind": "hotel",
+  "name": "替换为已确认落脚点名称",
+  "local_name": "Replace with local name",
+  "coordinates": [null, null],
+  "address": "待核实",
+  "source": "待填写来源URL",
+  "coordinate_source": "待填写坐标来源URL",
+  "coordinate_precision": "待说明入口、上车点或建筑代表点",
+  "checked_at": "待填写YYYY-MM-DD",
+  "notes": "待确认事项；不要把计划写成预订或实际到访"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "kk-demo-day", "revision": "01-baseline", "title": "三景点原始计划",
+  "date": null, "timezone": "Asia/Kuching", "simulation": true,
+  "traveler_basis": "仅为验证：1名成人，门票参照非马来西亚游客档；无用户国籍假设。",
+  "reason": "建立城市历史—地方文化—海滨风景的三点样本。",
+  "stops": [
+    {"place_id": "atkinson-clock-tower", "start": "09:00", "end": "09:45", "period": "morning"},
+    {"place_id": "sabah-museum", "start": "11:00", "end": "13:00", "period": "morning"},
+    {"place_id": "tanjung-aru", "start": "16:30", "end": "18:30", "period": "afternoon"}
+  ],
+  "cancelled": [],
+  "breaks": ["09:45–11:00 交通与缓冲；真实耗时待查", "13:00–16:30 午餐、休息与转场；餐厅和道路待选"],
+  "constraints": ["博物馆须先确认开放范围；此为有条件计划", "18:30仅为示例结束时间，不是经核实的日落时刻"]
+}

@@ -1,0 +1,20 @@
+{
+  "template_version": "1.0",
+  "empty_travel_data": true,
+  "scripts_and_skill_match_source": true,
+  "local_markdown_links_checked": 14,
+  "missing_links": [],
+  "skill_checks": [
+    {
+      "project": ".",
+      "skill_format": "Skill is valid!"
+    },
+    {
+      "project": "dist\\travel-project-template",
+      "skill_format": "Skill is valid!"
+    }
+  ],
+  "archive": "dist\\travel-project-template.zip",
+  "archive_sha256": "5306506a7ceaab5923ef5c272d9fde56466b7219d9128c281a20ca1d32ad8597",
+  "archive_files": 26
+}

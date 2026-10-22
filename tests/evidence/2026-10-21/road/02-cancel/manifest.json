@@ -1,0 +1,33 @@
+{
+  "active_ids": [
+    "atkinson-clock-tower",
+    "tanjung-aru"
+  ],
+  "cancelled_ids": [
+    "sabah-museum"
+  ],
+  "files": {
+    "anchors.md": "b0abf31b9faa612cc1900c0b2897179b93a267e5d01ea85e16a25d98facf2794",
+    "candidates.md": "710c8b1dbe19593915a87f8bd086bfeec68a8ef1eab64e0e210eebea7dcccad5",
+    "itinerary.md": "6d7cd871bc44679b6d754b7b656992b8fe99cca542cf4f6bd6bffa89004e7ce9",
+    "maps/overview.png": "b56e2f9047e07bc8e9d7e094f80fc06d9b5e9b35799f1043bb071523a09934c8",
+    "maps/route.geojson": "2bb0ede059ab0894446e6a702c37843936c9489407882cd5ee5eb7e8df11196b",
+    "maps/route.html": "3c8ebe27ee33b6b7a0d6afab8f0809e50dfe5a515a516f469d84b270f579dbd2",
+    "places/atkinson-clock-tower/README.md": "ba7d257708e48aa5bb4104286596412114b9d090ac41df86ddcaa83d37d53a88",
+    "places/atkinson-clock-tower/maps/overview.png": "09a80ff9b51ba5ab5d87c7d272cf8de34b02d8536290defc3c36d7aff81ffbba",
+    "places/atkinson-clock-tower/maps/route.geojson": "cb8a453ac1d30737fb1ddfdf40d8b62bef45d4522d80dffde23e33afd23acc37",
+    "places/atkinson-clock-tower/maps/route.html": "1fa630f356c91b80b8c306be706e288fb903d5ede7f0ae289d6ef674328dc4e4",
+    "places/sabah-museum/README.md": "fe1dd1541c8b81f692385c37b11c1ff8b92075d5e21611d6fb97aef50b3ebc81",
+    "places/sabah-museum/maps/overview.png": "26a34ad644a64cd7dc1d172240aac39caf5c95fccc694819504a34fc5896d35f",
+    "places/sabah-museum/maps/route.geojson": "26773920561413aa4edd4fcf6cea9dd19c70d323bfe36137e9e2dcfaad826889",
+    "places/sabah-museum/maps/route.html": "ca079f87bba1ff1375cdfd69276b2d38ef15d4b61da03ddca3ace1058956a331",
+    "places/tanjung-aru/README.md": "f184ae9d5529f37eeb306d9906cf17f39dfdd7eb739a308799ca971c0ffaea9b",
+    "places/tanjung-aru/maps/overview.png": "9b0e65d679efac2b8505c5500b6f0a3f588d08a3dc19c848acb496fa20062aa5",
+    "places/tanjung-aru/maps/route.geojson": "58bb9fb0cb62515c2b188a203fae72d33e6bb64728b97ebcf3c57e007a29adf1",
+    "places/tanjung-aru/maps/route.html": "3440e75b0f39e14d9e7bdd57fc6fb0cbc21026db35656e1e33d80995ddf35c00",
+    "routing.json": "e5a2368165b50e0b60a882816fee9d9c322456f4275536c96ad59c47b976fa43"
+  },
+  "known_ticket_myr": 0,
+  "revision": "02-cancel",
+  "source_digest": "7cac7d5da49ac27d390caf04b698ad70fc379978b162da9dcda788835a97bcc0"
+}

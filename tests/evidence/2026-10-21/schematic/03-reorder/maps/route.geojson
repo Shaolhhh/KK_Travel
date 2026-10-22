@@ -1,0 +1,69 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          116.048889,
+          5.942778
+        ],
+        "type": "Point"
+      },
+      "id": "tanjung-aru",
+      "properties": {
+        "end": "11:00",
+        "name": "丹绒亚路海滩",
+        "order": 1,
+        "place_id": "tanjung-aru",
+        "source_digest": "48c50cdebc821dd54cff2f6c767ed1975dfbc2a3b32b5d2544f53cfeb2133bd4",
+        "start": "09:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.077306,
+          5.982194
+        ],
+        "type": "Point"
+      },
+      "id": "atkinson-clock-tower",
+      "properties": {
+        "end": "14:45",
+        "name": "艾京生钟楼",
+        "order": 2,
+        "place_id": "atkinson-clock-tower",
+        "source_digest": "48c50cdebc821dd54cff2f6c767ed1975dfbc2a3b32b5d2544f53cfeb2133bd4",
+        "start": "14:00"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.048889,
+            5.942778
+          ],
+          [
+            116.077306,
+            5.982194
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "leg-1",
+      "properties": {
+        "from": "tanjung-aru",
+        "kind": "schematic",
+        "label": "游玩顺序直线示意，非道路导航",
+        "source_digest": "48c50cdebc821dd54cff2f6c767ed1975dfbc2a3b32b5d2544f53cfeb2133bd4",
+        "to": "atkinson-clock-tower"
+      },
+      "type": "Feature"
+    }
+  ],
+  "revision": "03-reorder",
+  "source_digest": "48c50cdebc821dd54cff2f6c767ed1975dfbc2a3b32b5d2544f53cfeb2133bd4",
+  "type": "FeatureCollection"
+}

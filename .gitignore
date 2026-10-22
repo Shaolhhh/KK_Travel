@@ -1,0 +1,11 @@
+.runtime/
+.venv/
+__pycache__/
+*.pyc
+.work/
+dist/
+tests/output/
+travel/trips/*/generated/
+travel/trips/*/site/
+travel/trips/*/cache/
+travel/trips/*/private/

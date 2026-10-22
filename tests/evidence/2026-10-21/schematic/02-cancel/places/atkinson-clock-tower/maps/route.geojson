@@ -1,0 +1,23 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          116.077306,
+          5.982194
+        ],
+        "type": "Point"
+      },
+      "id": "atkinson-clock-tower",
+      "properties": {
+        "name": "艾京生钟楼",
+        "place_id": "atkinson-clock-tower",
+        "source_digest": "b2f6d80872590bb3549bd15f61cbaf29e421411f0aec5ce8aed16c4d65cad140",
+        "status": "本次第1站 · 09:00–09:45 · 计划，未实际游览"
+      },
+      "type": "Feature"
+    }
+  ],
+  "source_digest": "b2f6d80872590bb3549bd15f61cbaf29e421411f0aec5ce8aed16c4d65cad140",
+  "type": "FeatureCollection"
+}

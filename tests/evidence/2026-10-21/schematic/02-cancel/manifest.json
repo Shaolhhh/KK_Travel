@@ -1,0 +1,31 @@
+{
+  "active_ids": [
+    "atkinson-clock-tower",
+    "tanjung-aru"
+  ],
+  "cancelled_ids": [
+    "sabah-museum"
+  ],
+  "files": {
+    "candidates.md": "36db46b706614a3914b2fa03623f7a530ac9c12f3f276b418cea029ba24f666f",
+    "itinerary.md": "24076850c0236b753976f6005b96b870fcbede82ca24a71d55e31866c139b097",
+    "maps/overview.png": "59211d741aec989f189eb3ec9023a821ec0f3745d8719afe82928a76fdcbe443",
+    "maps/route.geojson": "e29a0a675b105f4c17b1b7e5c14b4ae36244c736c316764f188df6929881f535",
+    "maps/route.html": "ab8ae991674fe63166168cb601830c5fd8fd23309339a831abb6e6f40f9f333b",
+    "places/atkinson-clock-tower/README.md": "feacddc4338f503640a0a817a8c41a210f0d6afbe4b9f069e950b83545c5ced4",
+    "places/atkinson-clock-tower/maps/overview.png": "09a80ff9b51ba5ab5d87c7d272cf8de34b02d8536290defc3c36d7aff81ffbba",
+    "places/atkinson-clock-tower/maps/route.geojson": "9166a52b0f91b9bd414b90d3f8137f996cadb06de4798c400d5517117b9a402d",
+    "places/atkinson-clock-tower/maps/route.html": "a457c967d585e38b988c96e413e88a79648906ba7094405e6b87e45407fb4481",
+    "places/sabah-museum/README.md": "7f391bee1f40138188230cd743f3d6b5b369c0000b178e1d9ea4e9b892d0b7c7",
+    "places/sabah-museum/maps/overview.png": "26a34ad644a64cd7dc1d172240aac39caf5c95fccc694819504a34fc5896d35f",
+    "places/sabah-museum/maps/route.geojson": "9bf95f04fcfb4d596192e78efd810041db447a9ac100b86c6af919066bf611b2",
+    "places/sabah-museum/maps/route.html": "57880982afc5880d02a742c33b7ed480a2e2a6b820a647b59d5f696c0e2de31d",
+    "places/tanjung-aru/README.md": "54d3b6657ea67b32dfd2afe30f7b5b97e6c7146682dedeecec5beff77c5ff1dc",
+    "places/tanjung-aru/maps/overview.png": "9b0e65d679efac2b8505c5500b6f0a3f588d08a3dc19c848acb496fa20062aa5",
+    "places/tanjung-aru/maps/route.geojson": "7bc43a99ab6c409c1b086971c9b431ff862bccd8f6edf50a28cb5708664a9ef2",
+    "places/tanjung-aru/maps/route.html": "8d9dfa9b059b1890764292a4313c053dc9276aeee8426b23fd4118c5757a4ca4"
+  },
+  "known_ticket_myr": 0,
+  "revision": "02-cancel",
+  "source_digest": "b2f6d80872590bb3549bd15f61cbaf29e421411f0aec5ce8aed16c4d65cad140"
+}

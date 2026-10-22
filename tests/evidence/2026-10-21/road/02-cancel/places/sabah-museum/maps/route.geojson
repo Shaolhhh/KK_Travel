@@ -1,0 +1,23 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          116.071667,
+          5.960556
+        ],
+        "type": "Point"
+      },
+      "id": "sabah-museum",
+      "properties": {
+        "name": "沙巴州博物馆",
+        "place_id": "sabah-museum",
+        "source_digest": "7cac7d5da49ac27d390caf04b698ad70fc379978b162da9dcda788835a97bcc0",
+        "status": "本次已取消 · 模拟取消；不是实际去过或确认闭馆"
+      },
+      "type": "Feature"
+    }
+  ],
+  "source_digest": "7cac7d5da49ac27d390caf04b698ad70fc379978b162da9dcda788835a97bcc0",
+  "type": "FeatureCollection"
+}

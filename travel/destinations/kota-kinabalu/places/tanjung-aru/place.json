@@ -1,0 +1,40 @@
+{
+  "id": "tanjung-aru",
+  "name": "丹绒亚路海滩",
+  "local_name": "Tanjung Aru Beach / Pantai Tanjung Aru",
+  "aliases": [
+    "丹容亚路海滩",
+    "丹绒亚路"
+  ],
+  "coordinates": [
+    116.048889,
+    5.942778
+  ],
+  "coordinate_source": "https://www.wikidata.org/wiki/Q877363",
+  "coordinate_precision": "海滩代表点，范围较长；不是已核实的集合点或上下车点",
+  "checked_at": "2026-10-21",
+  "category": "海滨景观",
+  "summary": "沙巴旅游局将这里介绍为欣赏日落、野餐和放风筝的海滩；名称与沿岸的aru木麻黄树有关。",
+  "fit": "适合海边散步与风景摄影；看日落需要保留傍晚时段，上午安排不能替代日落体验。",
+  "duration_advice": "约1.5–2小时（研究阶段的时长建议，不含交通）",
+  "access": "公共可达范围、设施与临时活动待出行前确认；水上活动未列为已确认需求。",
+  "ticket_myr": null,
+  "ticket_basis": "本次未核实入场、停车、设施等费用，预算不能按零元总费用处理。",
+  "transport": "Tanjung Aru Beach 是一段海岸，出发前应选定公共入口或集合点。返程上车位置、道路耗时与车费待核实。",
+  "food": "旅游局介绍有小吃摊；具体摊位营业、价格及过敏原现场确认。若选择上午游览，不保证摊位按傍晚情况营业。",
+  "shopping": "用户尚未确定购物需求；海滩摊位不作为已核实的采购点。",
+  "photo": {
+    "morning": "上午海边散步、拍木麻黄和海岸；上午场景不含日落；是否安排傍晚待选择。",
+    "afternoon": "傍晚留出海岸与日落拍照时段；确切日落时间、云量与可达机位待日期确定后核实。"
+  },
+  "equipment": "建议防晒、帽子、饮水、雨具和防沙收纳袋；保护相机避免接触海水。",
+  "language": "向司机出示选定入口；可问 ‘Where can I meet the driver?’。",
+  "culture_prompt": "观察当地人与游客如何使用海滨公共空间；尚无实际观察，不写成旅行体验。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：丹绒亚路海滩",
+      "url": "https://sabahtourism.com/destination/tanjung-aru-beach/"
+    }
+  ],
+  "provenance_note": "从2026-10-21研究资料迁入；未重新联网核实，模拟日程不随资料迁入。"
+}

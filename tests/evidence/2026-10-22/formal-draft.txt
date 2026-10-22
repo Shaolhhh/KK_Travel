@@ -1,0 +1,14 @@
+{
+  "trip": "kk-draft",
+  "destination": "马来西亚 · 亚庇",
+  "days": [
+    {
+      "id": "day-01",
+      "status": "draft",
+      "stops": 0
+    }
+  ],
+  "planned_stops": 0,
+  "selection_count": 3,
+  "note": "结构检查不是来源重查，也不是道路或开放时间验证"
+}

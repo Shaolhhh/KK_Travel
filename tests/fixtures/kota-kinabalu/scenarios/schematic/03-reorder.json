@@ -1,0 +1,13 @@
+{
+  "id": "kk-demo-day", "revision": "03-reorder", "title": "海滩改早上，钟楼改下午",
+  "date": null, "timezone": "Asia/Kuching", "simulation": true,
+  "traveler_basis": "仅为验证：1名成人，门票参照非马来西亚游客档；无用户国籍假设。",
+  "reason": "模拟更改游览顺序：上午海边，下午城市历史；本次放弃日落时段。",
+  "stops": [
+    {"place_id": "tanjung-aru", "start": "09:00", "end": "11:00", "period": "morning"},
+    {"place_id": "atkinson-clock-tower", "start": "14:00", "end": "14:45", "period": "afternoon"}
+  ],
+  "cancelled": [{"place_id": "sabah-museum", "reason": "承接上一步模拟取消；资料保留"}],
+  "breaks": ["11:00–14:00 午餐、休息与转场；交通耗时待查"],
+  "constraints": ["海滩上午游览不含日落", "餐饮营业与司机接送位置需随时段复核"]
+}

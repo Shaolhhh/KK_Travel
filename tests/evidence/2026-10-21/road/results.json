@@ -1,0 +1,81 @@
+[
+  {
+    "revision": "01-baseline",
+    "active": [
+      "atkinson-clock-tower",
+      "sabah-museum",
+      "tanjung-aru"
+    ],
+    "source_digest": "ce6e8ed1c0a70e29a75ebd17d320cae87cbd5acfa832a3d7bfd4de72b4dba150",
+    "files": 19,
+    "legs": 6,
+    "totals": {
+      "arrival": {
+        "distance_m": 7376,
+        "duration_s": 477.3
+      },
+      "day": {
+        "distance_m": 16045.699999999999,
+        "duration_s": 1345.8
+      },
+      "departure": {
+        "distance_m": 8786.9,
+        "duration_s": 596.4
+      }
+    },
+    "hotel_departure": "08:41",
+    "hotel_return": "18:53"
+  },
+  {
+    "revision": "02-cancel",
+    "active": [
+      "atkinson-clock-tower",
+      "tanjung-aru"
+    ],
+    "source_digest": "7cac7d5da49ac27d390caf04b698ad70fc379978b162da9dcda788835a97bcc0",
+    "files": 19,
+    "legs": 5,
+    "totals": {
+      "arrival": {
+        "distance_m": 7376,
+        "duration_s": 477.3
+      },
+      "day": {
+        "distance_m": 14268.5,
+        "duration_s": 1122.2
+      },
+      "departure": {
+        "distance_m": 8786.9,
+        "duration_s": 596.4
+      }
+    },
+    "hotel_departure": "08:41",
+    "hotel_return": "18:53"
+  },
+  {
+    "revision": "03-reorder",
+    "active": [
+      "tanjung-aru",
+      "atkinson-clock-tower"
+    ],
+    "source_digest": "fc9117e1238fa8ad47d7c718134c259e629a50298cf9effd9dab3fb635253883",
+    "files": 19,
+    "legs": 5,
+    "totals": {
+      "arrival": {
+        "distance_m": 7376,
+        "duration_s": 477.3
+      },
+      "day": {
+        "distance_m": 14673.6,
+        "duration_s": 1135.2
+      },
+      "departure": {
+        "distance_m": 8786.9,
+        "duration_s": 596.4
+      }
+    },
+    "hotel_departure": "08:36",
+    "hotel_return": "15:03"
+  }
+]

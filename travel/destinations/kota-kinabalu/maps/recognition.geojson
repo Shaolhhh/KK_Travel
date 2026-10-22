@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "note": "认知参考点，不含已选行程或道路；来源核实日期为2026-10-21。",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atkinson-clock-tower",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.077306,
+          5.982194
+        ]
+      },
+      "properties": {
+        "name": "艾京生钟楼",
+        "status": "candidate",
+        "coordinate_source": "https://www.wikidata.org/wiki/Q4281727",
+        "checked_at": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sabah-museum",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.071667,
+          5.960556
+        ]
+      },
+      "properties": {
+        "name": "沙巴州博物馆",
+        "status": "candidate",
+        "coordinate_source": "https://www.wikidata.org/wiki/Q2209383",
+        "checked_at": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tanjung-aru",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.048889,
+          5.942778
+        ]
+      },
+      "properties": {
+        "name": "丹绒亚路海滩",
+        "status": "candidate",
+        "coordinate_source": "https://www.wikidata.org/wiki/Q877363",
+        "checked_at": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bki-terminal-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.051328,
+          5.92306
+        ]
+      },
+      "properties": {
+        "name": "亚庇国际机场 T1",
+        "kind": "airport",
+        "coordinate_source": "https://mapy.com/en/?id=1056302676&source=osm",
+        "checked_at": "2026-10-21"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sheraton-kota-kinabalu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.072904,
+          5.977695
+        ]
+      },
+      "properties": {
+        "name": "亚庇喜来登酒店",
+        "kind": "hotel",
+        "coordinate_source": "https://www.google.com/maps/search/?api=1&gl=US&hl=en&query=5.977695163038609,116.07290393617629",
+        "checked_at": "2026-10-21"
+      }
+    }
+  ]
+}

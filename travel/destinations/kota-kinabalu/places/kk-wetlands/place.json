@@ -1,0 +1,50 @@
+{
+  "id": "kk-wetlands",
+  "name": "亚庇湿地中心",
+  "local_name": "Kota Kinabalu Wetland Centre",
+  "aliases": [],
+  "coordinates": [
+    116.0892486,
+    5.9874339
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/way/289922329",
+  "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "生态与动物",
+  "summary": "城市附近的红树林步道，适合看植物、招潮蟹和鸟类等小尺度生态。",
+  "fit": "想了解红树林又不想远行可考虑；如果主要想看长鼻猴与萤火虫游船，应比较远郊 Klias。",
+  "duration_advice": "1–2小时（初筛规划建议，非预约时段）",
+  "access": "旅游局介绍约1.5公里木栈道；当前步道可通行范围、票价和营业日待中心确认。",
+  "ticket_myr": null,
+  "ticket_basis": "本轮未核实有效票价；导览与普通入场可能不同。",
+  "transport": "酒店东北侧市区周边；这是步道参观候选，不是河上游船。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Kota Kinabalu Wetland Centre。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：亚庇湿地",
+      "url": "https://sabahtourism.com/destination/kota-kinabalu-wetlands/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "north",
+    "effort": "步行较多",
+    "tags": [
+      "红树林",
+      "鸟类",
+      "自然步道"
+    ],
+    "caveat": "鸟类和其他动物出现不可保证；步道维护、雨水和蚊虫影响体验。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

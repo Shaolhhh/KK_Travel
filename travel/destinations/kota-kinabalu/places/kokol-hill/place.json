@@ -1,0 +1,50 @@
+{
+  "id": "kokol-hill",
+  "name": "可可山区域",
+  "local_name": "Kokol Hill",
+  "aliases": [],
+  "coordinates": [
+    116.2036147,
+    6.0009938
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/node/12057272144",
+  "coordinate_precision": "OSM山峰代表点，仅表达区域；场地和集合点未选",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "山地与风景",
+  "summary": "从山上看城市与海岸的区域性候选，周边有不同观景、餐饮和拍照场所。",
+  "fit": "喜欢高处景观、咖啡和拍照可考虑；若只想看一次日落，可与丹绒亚路比较。",
+  "duration_advice": "半天，含往返（初筛规划建议，非预约时段）",
+  "access": "Kokol Hill 是区域，不是一张统一门票的景区；需先选具体场地。",
+  "ticket_myr": null,
+  "ticket_basis": "不同观景场地、餐饮和拍照项目分别收费，未核实具体场地。",
+  "transport": "山路往返，建议先确认返程车辆；地图标山体参考点，不可直接作为司机下车点。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Kokol Hill。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局日文站：Kokol Hill 与昆达山介绍",
+      "url": "https://japan.sabahtourism.com/2026/07/02/🏔️-ボルネオの絶景と出会う！コタキナバル1週/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "east",
+    "effort": "轻松",
+    "tags": [
+      "山景",
+      "日落",
+      "拍照"
+    ],
+    "caveat": "云雾会影响视野；山顶点不代表 Kokol Elf 或 Kokol Haven 的入口。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

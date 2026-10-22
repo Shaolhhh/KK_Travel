@@ -1,0 +1,55 @@
+{
+  "id": "sapi",
+  "name": "沙比岛",
+  "local_name": "Pulau Sapi",
+  "aliases": [],
+  "coordinates": [
+    116.0060023,
+    6.0094942
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/relation/14368025",
+  "coordinate_precision": "OSM岛屿代表点，不是靠岸码头或浮潜下水点",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "海岛与海上活动",
+  "summary": "海洋公园内常见的海滩与浮潜候选，靠近加雅岛。",
+  "fit": "浮潜兴趣较强可与马穆迪比较；当天水况与项目运营比岛屿排名更重要。",
+  "duration_advice": "半天至一天（含集合、乘船和活动）（初筛规划建议，非预约时段）",
+  "access": "需船只往返；海况、开放海域、返航时间及适合初学者的区域由当天运营方确认。",
+  "ticket_myr": null,
+  "ticket_basis": "需分别核实船费、公园保育费、码头/设施及水上项目费用；人数、国籍和活动未知，暂不列总价。",
+  "transport": "通常从 Jesselton Point 集合后乘船；码头为参考，实际以所购产品确认单为准。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Pulau Sapi。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：东姑阿都拉曼海洋公园",
+      "url": "https://sabahtourism.com/destination/tunku-abdul-rahman-park/",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "Sabah Parks：岛屿活动与设施",
+      "url": "https://www.sabahparks.org.my/tunku-abdul-rahman-park/activities-facilities",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "islands",
+    "effort": "乘船／活动自选",
+    "tags": [
+      "海岛",
+      "浮潜",
+      "海滩"
+    ],
+    "caveat": "三个岛是可替代候选，不默认安排跳三岛；不能从直线距离推算船程。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "kinabalu-park",
+  "name": "神山公园总部园区",
+  "local_name": "Kinabalu Park — Headquarters area",
+  "aliases": [],
+  "coordinates": [
+    116.54115,
+    6.008898
+  ],
+  "coordinate_source": "https://www.antweb.org/locality.do?code=tc1357712022",
+  "coordinate_precision": "AntWeb/Field Museum 采集记录的总部园区坐标；非确认售票口",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "山地与风景",
+  "summary": "以山地森林、植物和公园短步道建立自然认识的候选。",
+  "fit": "愿意用较多交通时间换山地环境可考虑；只想轻松市区游可暂缓。",
+  "duration_advice": "通常需预留一整天的区域出游尺度（初筛规划建议，非预约时段）",
+  "access": "此候选仅指总部园区与开放步道；神山登顶需另作多日、许可和体能规划。公园/植物园时段入选后确认。",
+  "ticket_myr": null,
+  "ticket_basis": "公园入场、植物园、导览及登山许可是不同项目；本轮不采用未核实总价。",
+  "transport": "在亚庇以东的山地，官方介绍约距市区92公里；这是市区概略道路距离，不是本次酒店路由结果。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Kinabalu Park — Headquarters area。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：神山公园",
+      "url": "https://sabahtourism.com/destination/kinabalu-park/",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "Sabah Parks：神山公园（检索摘要可读，正文访问受限）",
+      "url": "https://www.sabahparks.org.my/kinabalu-park/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "mountains",
+    "effort": "山路／步道自选",
+    "tags": [
+      "山景",
+      "森林",
+      "植物"
+    ],
+    "caveat": "地图标总部园区代表位置，不是山顶；山景受云雾影响。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

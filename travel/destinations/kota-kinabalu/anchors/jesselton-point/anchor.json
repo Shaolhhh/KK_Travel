@@ -1,0 +1,15 @@
+{
+  "id": "jesselton-point",
+  "kind": "jetty",
+  "name": "Jesselton Point 出海码头",
+  "local_name": "Jesselton Point Waterfront",
+  "coordinates": [
+    116.0790879,
+    5.9901962
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/way/239700149",
+  "coordinate_precision": "OSM码头建筑代表点，不是已确认售票柜台或登船口",
+  "checked_at": "2026-10-22",
+  "source": "https://sabahtourism.com/destination/jesselton-point-waterfront/",
+  "notes": "近海岛屿的主要出发码头参考；尚未选船票或运营方。"
+}

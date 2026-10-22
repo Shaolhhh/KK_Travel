@@ -29,6 +29,12 @@ description: Use when maintaining a file-based travel knowledge project through 
 
 ## 同步与验证
 
+每次攻略更新后必须交付浏览网页，认知与筛选阶段也一样。运行 `scripts/travel.py web --trip <id>` 和 `web-check --trip <id>`，产出 `docs/site/<id>/`；不为满足生成条件虚构日程。已 ready 的日计划先 build/check。网页读取知识源、落脚点和筛选意向，候选表及位置地图同步生成；详细字段见 [data-model.md](../../docs/data-model.md)。网页生成器为 [discovery_web.py](scripts/discovery_web.py)，模板在 `assets/discovery/`。
+
+用 `web-serve --trip <id> --port 8766` 打开本机 `/<id>/` 页面并交付入口。交互或地图行为变化时检查实际底图、酒店/机场/码头、筛选与弹窗，不能用静态HTML检查替代运行验证。按照本项目授权，`docs/site/` 是需要同步GitHub的发布快照；普通日计划工作副本仍不提交。GitHub文件页不是网站托管，不能把仓库HTML链接称为已上线网页。
+
+浏览器筛选和“比较”只改变临时视图，不代表用户已经选择；用户把意向反馈到对话后才更新 `selection.json`。不发布日志、复盘或私人附件。参考图仅点位与经纬度关系，不绘制虚构路由，也不从直线距离推算交通时间。
+
 正式命令入口为项目 `scripts/travel.py`，底层为 [travel_sync.py](scripts/travel_sync.py)，适配说明见 [schema.md](references/schema.md)。创建目的地/旅程优先用入口命令；资产目录是唯一模板源：`place.json`、`anchor.json`、`trip.json`（整次旅程）、`day.json`（单日）、`traveler.md`、`destination.md`、`decisions.md`、`journal-entry.md` 与 `review.md`。空草稿合法，不预填模拟景点或旅伴。只有填好当天景点/时段并设为 ready 才生成。
 
 道路模式先读取已有缓存，缺少新方向或新坐标的路段时再请求路线服务。当前复用 OSRM/FOSSGIS 汽车路线；请求需有 User-Agent、串行间隔至少一秒。保留请求 URL、方向、坐标、获取时间及原始响应；往返分别查询，不能直接反转路线。刷新缓存后重新生成所有受影响视图。道路数据缺失或无效时停止生成，不自动退回直线。路况、候车、车费及机场手续时间均不由道路模型推断。

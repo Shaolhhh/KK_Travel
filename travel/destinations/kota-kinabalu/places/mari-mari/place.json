@@ -1,0 +1,55 @@
+{
+  "id": "mari-mari",
+  "name": "Mari Mari 文化村",
+  "local_name": "Mari Mari Cultural Village",
+  "aliases": [],
+  "coordinates": [
+    116.2038427,
+    5.9737112
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/node/6046961944",
+  "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "历史与文化",
+  "summary": "以导览、传统建筑、技艺示范和餐饮认识沙巴多个社群。",
+  "fit": "想在一次活动里系统了解文化可优先比较；它是组织化的旅游展示，不代表所有当代日常生活。",
+  "duration_advice": "约半天，含往返和定时导览（初筛规划建议，非预约时段）",
+  "access": "运营方列10:00与14:00两场；预订时确认时长、餐食、语言和接送。",
+  "ticket_myr": null,
+  "ticket_basis": "官网列国际成人RM130、儿童RM110；马来西亚成人RM110、儿童RM100；接送可能另收费。用户票种未知。",
+  "transport": "位于酒店以东的 Kiansom 方向；返程交通与接送是否覆盖酒店需确认。",
+  "food": "套餐涉及餐食；具体菜单、过敏原和禁忌提前确认。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Mari Mari Cultural Village。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "Mari Mari Cultural Village：运营方官网",
+      "url": "https://marimariculturalvillage.my/",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "沙巴旅游局：Mari Mari 文化村",
+      "url": "https://sabahtourism.com/destination/discover-mari-mari-cultural-village-a-journey-into-sabah-heritage/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "east",
+    "effort": "导览步行",
+    "tags": [
+      "文化",
+      "表演",
+      "餐食"
+    ],
+    "caveat": "有固定场次，需要预约；饮食限制和导览语言先沟通。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

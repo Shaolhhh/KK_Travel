@@ -1,0 +1,55 @@
+{
+  "id": "desa-dairy",
+  "name": "昆达山德萨牧场",
+  "local_name": "Desa Cattle Dairy Farm",
+  "aliases": [],
+  "coordinates": [
+    116.5913566,
+    6.0164034
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/node/7893015023",
+  "coordinate_precision": "OSM牧场区域代表点；非确认入口或停车位",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "山地与风景",
+  "summary": "昆达山的农牧参观与乳制品体验，山景和牧场是主要看点。",
+  "fit": "喜欢牧场、乳制品或山地拍照可考虑；若对农业兴趣低，不必只为照片长途前往。",
+  "duration_advice": "场内1–2小时；加往返属于整日区域出游尺度（初筛规划建议，非预约时段）",
+  "access": "需在官方订票系统选择日期和可用场次；特定生产/喂养活动有各自时间。",
+  "ticket_myr": null,
+  "ticket_basis": "官方现列国际成人RM20、7–12岁RM10；马来西亚成人RM10、7–12岁RM7；未满7岁及OKU列免费。与旧旅游局行程RM5不同，以订票页适用价为准。",
+  "transport": "与神山公园同属东侧山地区域，是否合并以后按时间和道路核算。",
+  "food": "可关注牛奶、酸奶及冰淇淋；乳制品过敏或不耐受需另考虑。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Desa Cattle Dairy Farm。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "Desa Dairy Farm：官方订票与费用",
+      "url": "https://farmbooking.desaplus.com/",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "沙巴旅游局：德萨牧场",
+      "url": "https://sabahtourism.com/destination/desa-cattle-dairy-farm/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "mountains",
+    "effort": "轻松",
+    "tags": [
+      "牧场",
+      "山景",
+      "乳制品"
+    ],
+    "caveat": "不要沿用旧RM5票价；看到清晰神山背景不保证。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "state-mosque",
+  "name": "沙巴州立清真寺",
+  "local_name": "Sabah State Mosque / Masjid Negeri Sabah",
+  "aliases": [],
+  "coordinates": [
+    116.0672152,
+    5.9599154
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/way/131388578",
+  "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "建筑与宗教",
+  "summary": "位于 Sembulan 的州立清真寺，可作为另一处宗教建筑观察点。",
+  "fit": "特别喜欢建筑可与市立清真寺比较；体验有重叠，不必为了名称不同全部纳入。",
+  "duration_advice": "30–60分钟（初筛规划建议，非预约时段）",
+  "access": "旅游局列非周五08:00–12:00及14:00–17:00，并建议避开周五礼拜；开放按宗教活动调整。",
+  "ticket_myr": null,
+  "ticket_basis": "本轮未核实游客收费及借衣安排。",
+  "transport": "酒店南侧，靠近博物馆方向；相邻不等于已形成同日安排。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Sabah State Mosque / Masjid Negeri Sabah。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：州立清真寺",
+      "url": "https://sabahtourism.com/destination/sabah-state-mosque/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "south",
+    "effort": "轻松",
+    "tags": [
+      "建筑",
+      "宗教"
+    ],
+    "caveat": "参观不等于进入礼拜区域；具体许可与服装规定另核实。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

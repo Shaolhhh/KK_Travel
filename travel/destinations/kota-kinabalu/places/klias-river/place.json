@@ -1,0 +1,55 @@
+{
+  "id": "klias-river",
+  "name": "Klias 河红树林游船",
+  "local_name": "Klias River / Kota Klias",
+  "aliases": [],
+  "coordinates": [
+    115.6245849,
+    5.4526327
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/node/369492385",
+  "coordinate_precision": "OSM Kota Klias 村代表点；待选运营方后替换为实际集合码头",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "生态与动物",
+  "summary": "西海岸湿地区域的河上观察体验，可关注长鼻猴和夜间萤火虫。",
+  "fit": "想看野生动物、能接受较长往返和较晚回城可考虑；只想认识红树林可先比较市区湿地。",
+  "duration_advice": "大半天至夜间，含较长往返（初筛规划建议，非预约时段）",
+  "access": "需要选择实际运营方、码头、船型、救生衣、餐食及返程；动物和萤火虫可见程度不保证。",
+  "ticket_myr": null,
+  "ticket_basis": "不同游船套餐含接送、餐食或门票的范围不同；尚未选择供应商与报价。",
+  "transport": "旅游局区域介绍约距亚庇110公里；Klias、Kawa Kawa、Weston 是不同地点，不混用产品与坐标。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Klias River / Kota Klias。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：西海岸河流游船",
+      "url": "https://sabahtourism.com/article/your-guide-to-famous-river-cruises-around-kota-kinabalu/",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "title": "沙巴旅游局韩文站：Klias River",
+      "url": "https://korea.sabahtourism.com/destination/클리아스-강-klias-river/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "far-wetlands",
+    "effort": "长途乘车／乘船",
+    "tags": [
+      "长鼻猴",
+      "萤火虫",
+      "红树林"
+    ],
+    "caveat": "标记仅为 Kota Klias 村区域，不是已选码头；需要接受晚归和天气变动。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

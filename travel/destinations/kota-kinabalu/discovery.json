@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-22",
+  "title": "先认识亚庇，再决定去哪里",
+  "subtitle": "以喜来登酒店为参照，比较市区、海岛与周边自然体验。当前只做初筛，尚未安排具体日期、顺序或时段。",
+  "display_order": [
+    "tanjung-aru",
+    "gaya-street",
+    "handicraft-market",
+    "atkinson-clock-tower",
+    "sabah-museum",
+    "city-mosque",
+    "state-mosque",
+    "kk-wetlands",
+    "manukan",
+    "sapi",
+    "mamutik",
+    "mari-mari",
+    "kokol-hill",
+    "lok-kawi",
+    "kinabalu-park",
+    "desa-dairy",
+    "klias-river"
+  ],
+  "reference_anchors": [
+    "jesselton-point"
+  ],
+  "regions": {
+    "city": "市中心",
+    "south": "南侧海岸与近郊",
+    "north": "北侧市区",
+    "islands": "近海岛屿",
+    "east": "东侧近郊",
+    "mountains": "神山与昆达山",
+    "far-wetlands": "远郊湿地"
+  },
+  "map_nearby_bounds": [
+    [
+      5.82,
+      115.975
+    ],
+    [
+      6.04,
+      116.23
+    ]
+  ],
+  "comparison_prompts": [
+    "海岛先比较体验和配套，三个岛不默认全去。",
+    "日落偏好先在海滩与山上视角中做取舍，再决定是否都保留。",
+    "文化可比较自由参观的博物馆与固定场次文化村；前者仍需确认开放范围。",
+    "城市湿地步道、园区动物展示与远郊野生动物游船是三种不同体验。",
+    "神山公园与德萨牧场属于交通投入较高的一组，先决定是否愿意远行。"
+  ]
+}

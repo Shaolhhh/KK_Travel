@@ -16,7 +16,7 @@ class Handler(SimpleHTTPRequestHandler):
 
     def send_head(self):
         candidate=Path(self.translate_path(self.path)).resolve()
-        if not candidate.is_relative_to(Path(self.directory).resolve()) or (candidate.is_file() and candidate.suffix not in ('.html','.geojson','.png','.js','.css')):
+        if not candidate.is_relative_to(Path(self.directory).resolve()) or (candidate.is_file() and candidate.suffix not in ('.html','.geojson','.png','.js','.css','.svg')):
             self.send_error(403)
             return
         return super().send_head()

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "trip": "kk-draft",
+  "sources": {
+    "travel/trips/kk-draft/trip.json": "bcbfe19a929c4c9a3dc17c1012c48c7c56804106cf32eb28abf257aca4707e4a",
+    "travel/trips/kk-draft/selection.json": "26f26d4f4c956be629f773bba2d92e8132c68867b82473af49e3347e48e0666a",
+    "travel/trips/kk-draft/requirements.md": "95511e218a6aa002b9bfc36a1998c42ee28ac4baea6215c3da6d9c96d04c8d93",
+    "travel/destinations/kota-kinabalu/destination.json": "39c8b549578289be633f8edda05f5cb5f4099a71dbc62f765da7a2611c23d7f9",
+    "travel/destinations/kota-kinabalu/overview.md": "498200fbe343d06fde05b051118f994bad4a9a99cd0717dbcd62984b53e0420a",
+    "travel/destinations/kota-kinabalu/discovery.json": "7daec1fcadc86ffc0d83cceb63b5d81bd80e42c88a944abd0e57e9ce2fda5b8a",
+    "travel/trips/kk-draft/days/day-01.json": "178421801ae05adad7438b4dbddd494ff1123c3656601b142ff65887c17e9c70",
+    "travel/destinations/kota-kinabalu/anchors/sheraton-kota-kinabalu/anchor.json": "340e449c97f32e6d1d11197245d96d9350dfcc2e91e9e46c4b5a28368fc1d852",
+    "travel/destinations/kota-kinabalu/anchors/bki-terminal-1/anchor.json": "03dc67873db1f09b63004d737c0c174707598747392efc79745e6be908df2fd0",
+    "travel/destinations/kota-kinabalu/anchors/jesselton-point/anchor.json": "f9bfc66a7c3f6df0a0b430e6e4f147cd4fca2982b1599b0441a30a6cafaa9bcc",
+    "travel/destinations/kota-kinabalu/places/tanjung-aru/place.json": "c1b6614cfea5a4b01de995203fcd8825f894e796556f2205292715df6eb6bbe3",
+    "travel/destinations/kota-kinabalu/places/gaya-street/place.json": "1e53d661eb05161c710da6db87bf772113e7ada3934558c1d313e6cf19d76993",
+    "travel/destinations/kota-kinabalu/places/handicraft-market/place.json": "ed2bd7da8fdffe120a5974ebc74f24d1ddfe0aa6bde9ea80a33a60a060bd8961",
+    "travel/destinations/kota-kinabalu/places/atkinson-clock-tower/place.json": "30ee37cc2570a7c595d40fbd71ed3f7e2ca19201bd6558126114d8d11fd49238",
+    "travel/destinations/kota-kinabalu/places/sabah-museum/place.json": "af3343aa5534921697d28432767d12685f81b88b658038fdf258cc5a8bcf22f3",
+    "travel/destinations/kota-kinabalu/places/city-mosque/place.json": "2aa4ca5752aeca9bb5150484e5b5e6bea16d53db8e7f250d009f7ce6a0b526b4",
+    "travel/destinations/kota-kinabalu/places/state-mosque/place.json": "6be1f8a41842c5e904c86e8873597526798e9921007ebd150e673ab184c5024c",
+    "travel/destinations/kota-kinabalu/places/kk-wetlands/place.json": "df5ae4089ad7c9af03056d23387d69b85574d115ff65c159bcbe2ff56cc3706a",
+    "travel/destinations/kota-kinabalu/places/manukan/place.json": "dd66af20325e80cdd2fa38ad5f0f1e8c1d753672cd45c2d35fa4919172edebd2",
+    "travel/destinations/kota-kinabalu/places/sapi/place.json": "bd69a492831b03e48b7e052b426a93b44909510b0d007a5f7a31ba643c342da7",
+    "travel/destinations/kota-kinabalu/places/mamutik/place.json": "2af3d5fb87d99830508e3bd6a3fea4bfaa68f0c9c4d0df81ac68c9a90aa097ae",
+    "travel/destinations/kota-kinabalu/places/mari-mari/place.json": "d218d1b24dd70fdfa4017d4b6b2bd5d6016823cd05f6fbd296dc5db01af3ed2d",
+    "travel/destinations/kota-kinabalu/places/kokol-hill/place.json": "6f1a56e672fde078379c0e9cc991edee9a219ee70db7eaaa0ecb07b79667d1d6",
+    "travel/destinations/kota-kinabalu/places/lok-kawi/place.json": "f80b4ba02a6475efd3e93c46fb0e8cf471c58dca768e30a92e9d2aab5384fa2d",
+    "travel/destinations/kota-kinabalu/places/kinabalu-park/place.json": "43095a01b9962709f2229f319a0bb3a9bc5227a6d6733d60a198e247d9567148",
+    "travel/destinations/kota-kinabalu/places/desa-dairy/place.json": "72280b87b1726ede56a5f49bc1da15654fb353c4d9ed4ea2c57a4abf4a7b1af8",
+    "travel/destinations/kota-kinabalu/places/klias-river/place.json": "d3032b7f199ca176f86290bca66045ce946d648319559448fcb7d06da984a9c0",
+    "skills/travel-workflow/assets/discovery/app.js": "6f312093285647cb991a4e6f5d7761b03095f90bd5bb4df18ac030faf9618d5f",
+    "skills/travel-workflow/assets/discovery/index.html": "6bdff1dbf7e69081470979bd4e9e841ed0db30d3b5dce798aca9df5f74241a23",
+    "skills/travel-workflow/assets/discovery/style.css": "048dac4a297ae83e11b250d6c620f89581c7a618072ecbb9c565035f9d456f2a",
+    "skills/travel-workflow/scripts/discovery_web.py": "3ab4ab6f42f0f3548d5343f6f6ee6c563c6e51a4fa2eb7128817dd024204c7b9",
+    "scripts/travel.py": "a4019e4a97bfb3bf776e747fe2ef31405abeb323af2fa958c209c11f691c22eb"
+  },
+  "files": {
+    "recognition.geojson": "79acaba25e71fb05c319a54db0c3a5bb94bd51ec466b3e7280641c17fe16ade6",
+    "nearby.svg": "207864c2b9b0c3802a01788a9bfd108220ae879bf90e261e38d4afb21d13864e",
+    "regional.svg": "6150ffed71a1fdd95223dd45fbe1870cb12571b154b53587001055545849a29f",
+    "index.html": "c47624069397bb3ac2b6368ea23ff2e5500df28c921ddf56a5c8b95dfec9597a",
+    "app.js": "6f312093285647cb991a4e6f5d7761b03095f90bd5bb4df18ac030faf9618d5f",
+    "style.css": "048dac4a297ae83e11b250d6c620f89581c7a618072ecbb9c565035f9d456f2a"
+  },
+  "companions": {
+    "candidates.md": "fc532b8eaf3a913010ee2bf43e648ab9b4072984cecbde94d20f7609987bb0c5",
+    "recognition.geojson": "79acaba25e71fb05c319a54db0c3a5bb94bd51ec466b3e7280641c17fe16ade6"
+  }
+}

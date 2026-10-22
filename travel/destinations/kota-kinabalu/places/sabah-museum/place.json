@@ -11,34 +11,48 @@
     5.960556
   ],
   "coordinate_source": "https://www.wikidata.org/wiki/Q2209383",
-  "coordinate_precision": "馆区代表点；不是已核实的上下车点或入口",
-  "checked_at": "2026-10-21",
-  "category": "地方文化",
-  "summary": "馆区呈现沙巴历史与不同社群的文化资料。官网介绍主馆建筑借鉴Rungus长屋形式，并介绍文化村；具体可参观内容需核实。",
-  "fit": "适合想先建立沙巴文化背景的人；是否入选取决于兴趣、可用时间与实际开放范围。",
-  "duration_advice": "约2小时（研究阶段的时长建议，取决于实际开放范围）",
-  "access": "常规页面列每日09:00–17:00；官网仍保留2024年主楼展厅关闭公告。本次未确认重开日期，不能据常规时间断言主馆可进入。",
+  "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+  "checked_at": "2026-10-22",
+  "category": "历史与文化",
+  "summary": "通过历史资料、社群建筑和文化村认识沙巴，适合作为文化背景入口。",
+  "fit": "文化兴趣强可保留；需要室内雨天备选时，必须先确认主楼能否参观。",
+  "duration_advice": "1.5–2.5小时（初筛规划建议，非预约时段）",
+  "access": "官网常规页列09:00–17:00，但仍有主楼展厅关闭公告；本轮未找到可确认重开的公告，不判断整个馆区关闭。",
   "ticket_myr": null,
-  "ticket_basis": "已有官网资料列非马来西亚游客RM15；用户票种与人数未知，尚未选定适用价格。核实日期仍为2026-10-21。",
-  "transport": "目的地使用 Sabah Museum 主馆区，避免与其他同名分馆混淆。道路、公共交通和叫车费用待核实；坐标不是停车入口。",
-  "food": "不依赖未经核实的馆内餐饮；建议参观前后另安排午餐。",
-  "shopping": "官网有 Museum Shop 入口；不据此保证现场商店营业、价格或库存。",
+  "ticket_basis": "官网常规页列马来西亚访客RM2、非马来西亚RM15；适用票种和实际开放范围待确认。",
+  "transport": "酒店南侧馆区；选定后核对可进入的建筑、停车和下车点。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
   "photo": {
-    "morning": "先核实可开放区域和拍摄规定，再拍建筑；展品拍摄遵循现场要求。",
-    "afternoon": "先核实可开放区域和拍摄规定，再拍建筑；展品拍摄遵循现场要求。"
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
   },
-  "equipment": "建议轻便鞋、饮水和雨具；若参观户外文化村需考虑日晒。",
-  "language": "可问 ‘Which galleries are open today?’ 与 ‘Is photography allowed?’。",
-  "culture_prompt": "留意不同社群的名称与建筑形式，避免把沙巴文化概括为单一传统；游后用实际记录补充。",
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Sabah Museum / Muzium Sabah。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
   "sources": [
     {
-      "title": "沙巴博物馆：馆区、票价及常规时间",
-      "url": "https://museum.sabah.gov.my/node/68"
+      "title": "沙巴博物馆：馆区与常规开放",
+      "url": "https://museum.sabah.gov.my/node/68",
+      "checked_at": "2026-10-22"
     },
     {
-      "title": "主楼展厅关闭公告（官网仍保留；重开情况待查）",
-      "url": "https://museum.sabah.gov.my/node/200"
+      "title": "沙巴博物馆：主楼展厅关闭公告",
+      "url": "https://museum.sabah.gov.my/node/200",
+      "checked_at": "2026-10-22"
     }
   ],
-  "provenance_note": "从2026-10-21研究资料迁入；未重新联网核实，模拟日程不随资料迁入。"
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。",
+  "coordinate_checked_at": "2026-10-21",
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "south",
+    "effort": "轻松",
+    "tags": [
+      "文化",
+      "博物馆",
+      "建筑"
+    ],
+    "caveat": "开放范围待确认，暂不作为确定可用的雨天替代方案。"
+  }
 }

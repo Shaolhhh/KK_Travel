@@ -1,4 +1,4 @@
-# 旅行知识与攻略项目模板 · v1.0
+# 旅行知识与攻略项目模板 · v1.1
 
 将目的地认知、景点筛选、攻略维护、旅途记录与复盘保存在同一套文件中。正式旅行资料与模拟测试分开维护，项目仓库为 [Shaolhhh/KK_Travel](https://github.com/Shaolhhh/KK_Travel)。
 
@@ -14,7 +14,9 @@
 | `tests/evidence/` | 验收证据与迁移记录；不是用户旅行经历 |
 | `tests/output/` | 可重建模拟攻略和地图，不进入真实计划 |
 
-亚庇草稿只确认用户指定的喜来登酒店和汽车／出租车方式。三个景点迁入候选知识库，未选中、未取消、未安排时段；旅行日期、人数、票种与航班仍未知。BKI T1 作为待航班确认的参考落脚点保留。`journal/`、`reviews/` 和正式生成目录为空。
+亚庇现有17项正式初筛候选，分七个地理区域；每景点一份独立知识源。已确认用户指定的喜来登酒店和汽车／出租车方式；旅行日期、人数、票种与航班仍未知。没有选定景点或具体日程，BKI T1待航班确认，Jesselton Point仅为参考出海码头。`journal/`与`reviews/`仍为空。
+
+从 [目的地概览](travel/destinations/kota-kinabalu/overview.md)、[候选对照表](travel/trips/kk-draft/candidates.md) 开始。每次攻略更新都会生成 [浏览网页文件](docs/site/kk-draft/index.html)，包含酒店/机场/码头、交互点位地图、离线位置图和筛选卡片。GitHub文件页不运行HTML，按下面命令在本机浏览；当前未启用在线网页托管。
 
 ## 本地使用
 
@@ -24,6 +26,16 @@
 $travelPython = 'python'
 & $travelPython -m pip install -r requirements.txt
 & $travelPython -X utf8 scripts/travel.py inspect --trip kk-draft
+& $travelPython -X utf8 scripts/travel.py web --trip kk-draft
+& $travelPython -X utf8 scripts/travel.py web-check --trip kk-draft
+& $travelPython -X utf8 scripts/travel.py web-serve --trip kk-draft --port 8766
+```
+
+浏览地址：`http://127.0.0.1:8766/kk-draft/`。候选初筛不要求日程，地图不把直线距离当车程；页面“比较”只临时保存，刷新清空，反馈到对话后才确认正式选择。离线下载仓库后可直接打开网页，底图和Leaflet仍需联网，离线SVG与卡片不依赖外部脚本。
+
+创建独立空项目：
+
+```powershell
 & $travelPython -X utf8 scripts/travel.py new-project ./dist/my-travel-project
 ```
 
@@ -38,7 +50,7 @@ $travelPython = 'python'
 & $travelPython -X utf8 scripts/travel.py serve --trip kk-draft
 ```
 
-未选景点的草稿会拒绝生成，不预填假行程。`fetch` 才联网查询道路；`build/check` 使用已有缓存。预览只展示地图目录，地址为 `http://127.0.0.1:8765/`，Ctrl+C 停止。HTML 底图/CDN 需要联网，PNG/GeoJSON/Markdown 可离线阅读。
+未选景点的草稿会拒绝生成具体日计划，但允许生成认知网页。`fetch` 才联网查询道路；`build/check` 使用已有缓存。日计划更新完成后同样执行 `web/web-check`，把攻略与地图汇入浏览网页。预览只展示允许的输出目录，Ctrl+C停止。
 
 ## 回归与历史结果
 
@@ -51,6 +63,6 @@ $travelPython = 'python'
 
 这些命令只读取 `tests/fixtures/` 并生成测试输出。模板化验收见 [本次报告](tests/evidence/2026-10-22/VALIDATION.md)；先前已完成的 [道路与浏览器验收](tests/evidence/2026-10-21/road/VALIDATION.md) 保留，历史报告中的旧路径可对照迁移记录。
 
-仓库保存文档、旅行源资料、Skill/脚本、固定测试数据及历史验收证据。`.runtime/`、`.venv/`、`.work/`、`dist/`、`tests/output/` 和旅程中的生成物、预览副本、道路缓存、私人附件由 `.gitignore` 排除。地图 HTML 下载到本地后通过预览服务打开；GitHub 文件页本身不执行交互地图脚本。
+仓库保存文档、旅行源资料、Skill/脚本、固定测试数据及历史验收证据。`docs/site/`是供浏览的发布快照，随资料更新提交。`.runtime/`、`.venv/`、`.work/`、`dist/`、`tests/output/`和旅程中的日计划工作生成物、预览副本、道路缓存、私人附件仍由`.gitignore`排除。
 
-复用 OSRM/FOSSGIS、Folium/Leaflet、OpenStreetMap、GeoJSON 与 Pillow。自定义部分是资料约定、对话变更规则、缓存适配与同步校验。当前自动制图验收范围仍是单日最多三个景点加酒店/机场，费用仅 MYR 门票小计；未新增实时交通、全程优化、公交/步行或 QGIS 能力。
+复用OSRM/FOSSGIS、Folium/Leaflet、OpenStreetMap、GeoJSON与Pillow。自定义部分是资料约定、对话变更规则、缓存适配、认知页与同步校验。日计划路线仍限单日最多三个景点加酒店/机场，费用仅MYR门票小计；认知网页独立支持更多候选，不代表实时交通、路线优化、公交/步行或QGIS能力已扩展。

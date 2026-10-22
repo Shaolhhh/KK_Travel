@@ -15,6 +15,8 @@
 | 为什么做选择 | `decisions.md` | 不把它当可执行日程数据 |
 | 实际经历与用户表达 | `journal/` | 不从计划或模拟测试推断 |
 | 按需复盘 | `reviews/` | 生成器不自动改写 |
+| 认知页结构 | `discovery.json`（可选） | 展示顺序不是日计划顺序 |
+| 浏览网页、候选表和位置地图 | `web` 命令生成 | 不手改 `docs/site/` 或 `candidates.md` |
 
 `selection.json` 的 `items` 每条含 `place_id`、`status`、`reason`，可补 `fit`、`blockers`、`evidence`。`status` 为 `candidate`（待筛选）、`shortlist`（优先考虑）、`excluded`（本次排除）。它表达意向，`days[].stops` 才表示排入当天；排除项不能同时在活动日程中。某天取消后可仍保留为旅程备选。
 
@@ -50,6 +52,9 @@ python scripts/travel.py new-project ./dist/my-travel-project
 python scripts/travel.py destination destination-id --name "目的地名称" --timezone Asia/Kuching
 python scripts/travel.py trip trip-id --destination destination-id --title "旅行名称"
 python scripts/travel.py inspect --trip trip-id
+python scripts/travel.py web --trip trip-id
+python scripts/travel.py web-check --trip trip-id
+python scripts/travel.py web-serve --trip trip-id --port 8766
 python scripts/travel.py fetch --trip trip-id --day day-01
 python scripts/travel.py build --trip trip-id --day day-01
 python scripts/travel.py check --trip trip-id --day day-01
@@ -59,6 +64,12 @@ python scripts/travel.py serve --trip trip-id --port 8765
 前三条是不同操作：`new-project` 创建独立空项目；之后在新项目里创建目的地与旅程。目标存在时拒绝覆盖。模板包不带当前旅行资料、测试夹具、道路响应、历史证据或本机依赖；无需 Git。
 
 `fetch` 是唯一联网取道路的入口，只补缺失路段，主动更新用 `--refresh`。OSRM/FOSSGIS 响应按提供方/模式/方向/坐标缓存，往返各查；带 User-Agent，串行间隔至少 1.1 秒。无效响应先拒绝，保留已有缓存；不回退直线。刷新后需重新生成受影响日期。
+
+`web` 不要求日计划 ready，可从空草稿生成认知页；不自动选择或安排景点。它发布 `docs/site/<trip-id>/`，生成本次 `candidates.md` 与目的地 `maps/recognition.geojson`。每次攻略更新后执行 `web` 和 `web-check`，网页与源文件一同按授权同步GitHub。只读取明确的知识、选择和经校验的日计划输出，不复制私人附件或实际日志。`web-serve` 仅暴露 `docs/site/`，入口为 `http://127.0.0.1:<port>/<trip-id>/`；GitHub文件页不提供HTML运行环境。
+
+可选 `discovery.json` 包含 `regions`（区域ID到名称）、`display_order`（景点展示顺序）、`reference_anchors`（如出海码头）、`map_nearby_bounds`（Leaflet纬经度边界）、`comparison_prompts`（比较建议）。每个景点可增加 `research_stage=discovery` 和 `discovery` 对象：`region`、`effort`、`tags`、`caveat`。主字段仍是唯一事实来源，不在网页配置重复维护票价或坐标。
+
+`web-check` 检查源摘要、生成器、网页模板、输出散列和候选/地图副本。资料、坐标、状态、源日计划或模板变化后旧网页会失败；重复生成应相同。页面过滤不改变持久状态；本地比较清单需要回到对话确认。日计划的三个景点限制仍独立存在，认知地图的更多点位不代表路线优化已扩展。
 
 `build` 先在临时目录完整生成并检查，再更新当天输出和 `site/`。旧清单中不再需要的生成文件会清理，例如切换示意图后旧的道路明细；未被清单跟踪的个人笔记不动。需清理的旧文件若被手改则停止，先把个人内容保存到源目录后再重建。`check` 同时检查生成物散列、源摘要和预览副本；旧文件或手改输出会失败。最终复制不是文件系统事务，中途失败仍须重建并通过检查后才使用，不支持多人并发修改。
 

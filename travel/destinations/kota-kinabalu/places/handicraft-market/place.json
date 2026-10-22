@@ -1,0 +1,50 @@
+{
+  "id": "handicraft-market",
+  "name": "海滨手工艺市场",
+  "local_name": "Handicraft Market / Anjung Kinabalu",
+  "aliases": [],
+  "coordinates": [
+    116.07207,
+    5.98169
+  ],
+  "coordinate_source": "https://www.penang-traveltips.com/malaysia/sabah/kota-kinabalu/filipino-market.htm",
+  "coordinate_precision": "旅行地图资料给出的市场概略位置；较低置信度，非确认入口",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "市集与购物",
+  "summary": "海滨市场区可看沙龙布、珠饰和纪念品；旅游局现以 Anjung Kinabalu 介绍。",
+  "fit": "适合比较纪念品、想看市场生活的人；若不购物，可作为短停候选。",
+  "duration_advice": "45–90分钟（初筛规划建议，非预约时段）",
+  "access": "不同摊位营业不一致；手工艺市场与邻近晚间餐饮摊不能共用一个营业时间。",
+  "ticket_myr": null,
+  "ticket_basis": "未核实入场收费；购物和餐饮另计。",
+  "transport": "位于酒店北侧海滨；地图只标市场街区，实际入口再确认。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "关注产地、材质、做工和报价，不把所有商品都视为本地手工制作。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Handicraft Market / Anjung Kinabalu。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：Anjung Kinabalu 手工艺市场",
+      "url": "https://sabahtourism.com/destination/handicraft-market/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "city",
+    "effort": "轻松",
+    "tags": [
+      "购物",
+      "市集",
+      "小吃"
+    ],
+    "caveat": "旅游局命名与旧攻略俗称不同；避免把周日加雅街市集认作这里。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

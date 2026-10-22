@@ -3,11 +3,14 @@
   "kind": "hotel",
   "name": "亚庇喜来登酒店",
   "local_name": "Sheraton Kota Kinabalu",
-  "coordinates": [116.072904, 5.977695],
+  "coordinates": [
+    116.072904,
+    5.977695
+  ],
   "address": "Jalan Albert Kwok, Kota Kinabalu, Sabah, Malaysia, 88000",
   "source": "https://www.marriott.com/en-us/hotels/bkisi-sheraton-kota-kinabalu/overview/",
   "coordinate_source": "https://www.google.com/maps/search/?api=1&gl=US&hl=en&query=5.977695163038609,116.07290393617629",
   "coordinate_precision": "万豪官网 VIEW MAP 链接给出的酒店位置；车道与上车点尚未现场确认",
-  "checked_at": "2026-10-21",
+  "checked_at": "2026-10-22",
   "notes": "用户指定的住宿落脚点，未记录预订或日期。官网列入住15:00、退房12:00，且无机场班车；接送按汽车/出租车规划，费用待询价。"
 }

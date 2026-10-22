@@ -1,0 +1,50 @@
+{
+  "id": "gaya-street",
+  "name": "加雅街与周日市集",
+  "local_name": "Gaya Street Sunday Market",
+  "aliases": [],
+  "coordinates": [
+    116.0770231,
+    5.9835386
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/way/148192834",
+  "coordinate_precision": "OSM街道路段代表点；市集沿街展开，不是单一入口",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "市集与购物",
+  "summary": "市中心街区；周日早市集中展示日常食品、手工艺品和杂货。",
+  "fit": "适合想逛街、吃小食、观察城市生活的人；没有周日也可逛街，但不能当作参加了周日市集。",
+  "duration_advice": "1–2小时（初筛规划建议，非预约时段）",
+  "access": "旅游局列周日约06:00–13:00；节庆和临时调整待旅行日期确定后复查。",
+  "ticket_myr": null,
+  "ticket_basis": "未核实独立入场收费；食品和购物按实际消费计。",
+  "transport": "酒店北侧的市中心街区；是否步行取决于天气、路口和体力。",
+  "food": "可把当地小食作为探索主题，过敏原和饮食禁忌待用户提供。",
+  "shopping": "可比较纺织品、小工艺与食品；产地、材质及食品携带规定入选后细查。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Gaya Street Sunday Market。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：加雅街周日市集",
+      "url": "https://sabahtourism.com/destination/gaya-street-sunday-market/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "city",
+    "effort": "轻松",
+    "tags": [
+      "市集",
+      "小吃",
+      "购物"
+    ],
+    "caveat": "周日限定的是市集，不是整条街的可达性。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

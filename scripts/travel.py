@@ -53,7 +53,7 @@ def init_project(target):
     for name in ('AGENTS.md','requirements.txt','.gitignore'):
         shutil.copy2(ROOT/name,target/name)
     shutil.copy2(ASSETS/'project-readme.md',target/'README.md')
-    write(target/'project.json',{'schema_version':1,'template_version':'1.0','data_root':'travel'})
+    write(target/'project.json',{'schema_version':1,'template_version':'1.1','data_root':'travel'})
     return target
 
 
@@ -208,17 +208,29 @@ def build_day(root,key,day_id,check_only=False):
     return {'ok':True,'revision':day['revision'],'active':result['active_ids'],'files':len(result['files']),'output':str(out)}
 
 
+def build_web(root,key,check_only=False):
+    status=inspect_trip(root,key)
+    folder,trip,destination,info=trip_context(root,key)
+    ready=[]
+    for day in status['days']:
+        if day['status']=='ready':
+            build_day(root,key,day['id'],check_only=True)
+            ready.append(day['id'])
+    import discovery_web
+    return discovery_web.build(Path(root),key,folder,trip,destination,info,ready,check_only)
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest='command',required=True)
     new=sub.add_parser('new-project'); new.add_argument('path')
     dest=sub.add_parser('destination'); dest.add_argument('id'); dest.add_argument('--name',required=True); dest.add_argument('--timezone',required=True)
     trip=sub.add_parser('trip'); trip.add_argument('id'); trip.add_argument('--destination',required=True); trip.add_argument('--title',required=True)
-    for command in ('inspect','build','check','fetch','serve'):
+    for command in ('inspect','build','check','fetch','serve','web','web-check','web-serve'):
         cmd=sub.add_parser(command); cmd.add_argument('--trip',required=True)
         if command in ('build','check','fetch'): cmd.add_argument('--day',required=True)
         if command=='fetch': cmd.add_argument('--refresh',action='store_true')
-        if command=='serve': cmd.add_argument('--port',type=int,default=8765)
+        if command in ('serve','web-serve'): cmd.add_argument('--port',type=int,default=8765)
     args=parser.parse_args()
     try:
         if args.command=='new-project': result={'created':str(init_project(args.path))}
@@ -226,6 +238,12 @@ def main():
         elif args.command=='trip': result={'created':str(create_trip(ROOT,args.id,args.destination,args.title))}
         elif args.command=='inspect': result=inspect_trip(ROOT,args.trip)
         elif args.command in ('build','check'): result=build_day(ROOT,args.trip,args.day,check_only=args.command=='check')
+        elif args.command in ('web','web-check'): result=build_web(ROOT,args.trip,check_only=args.command=='web-check')
+        elif args.command=='web-serve':
+            build_web(ROOT,args.trip,check_only=True)
+            from serve_maps import serve
+            serve(inside(ROOT,'docs/site'),args.port)
+            return
         elif args.command=='fetch':
             folder,places,anchors,day=day_context(ROOT,args.trip,args.day)
             if not day.get('travel'): raise ValueError('示意图模式不查询道路')

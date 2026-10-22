@@ -1,44 +1,14 @@
 {
   "type": "FeatureCollection",
-  "note": "认知参考点，不含已选行程或道路；来源核实日期为2026-10-21。",
+  "name": "马来西亚 · 亚庇认知参考点",
+  "metadata": {
+    "purpose": "候选位置认知；无具体日程、道路或船行路线",
+    "distance_basis": "从酒店到代表点的球面直线距离，非交通距离",
+    "point_attribution": "© OpenStreetMap contributors / ODbL；其他来源逐点标明"
+  },
   "features": [
     {
       "type": "Feature",
-      "id": "atkinson-clock-tower",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.077306,
-          5.982194
-        ]
-      },
-      "properties": {
-        "name": "艾京生钟楼",
-        "status": "candidate",
-        "coordinate_source": "https://www.wikidata.org/wiki/Q4281727",
-        "checked_at": "2026-10-21"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "sabah-museum",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.071667,
-          5.960556
-        ]
-      },
-      "properties": {
-        "name": "沙巴州博物馆",
-        "status": "candidate",
-        "coordinate_source": "https://www.wikidata.org/wiki/Q2209383",
-        "checked_at": "2026-10-21"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "tanjung-aru",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -47,32 +17,440 @@
         ]
       },
       "properties": {
+        "id": "tanjung-aru",
+        "label": "P01",
         "name": "丹绒亚路海滩",
+        "local_name": "Tanjung Aru Beach",
+        "region": "south",
+        "region_name": "南侧海岸与近郊",
+        "category": "海岸与日落",
+        "kind": "place",
         "status": "candidate",
-        "coordinate_source": "https://www.wikidata.org/wiki/Q877363",
-        "checked_at": "2026-10-21"
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#c48334",
+        "distance_km": 4.7,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.wikidata.org/wiki/Q877363"
       }
     },
     {
       "type": "Feature",
-      "id": "bki-terminal-1",
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.051328,
-          5.92306
+          116.0770231,
+          5.9835386
         ]
       },
       "properties": {
-        "name": "亚庇国际机场 T1",
-        "kind": "airport",
-        "coordinate_source": "https://mapy.com/en/?id=1056302676&source=osm",
-        "checked_at": "2026-10-21"
+        "id": "gaya-street",
+        "label": "P02",
+        "name": "加雅街与周日市集",
+        "local_name": "Gaya Street Sunday Market",
+        "region": "city",
+        "region_name": "市中心",
+        "category": "市集与购物",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#18796c",
+        "distance_km": 0.8,
+        "coordinate_precision": "OSM街道路段代表点；市集沿街展开，不是单一入口",
+        "coordinate_source": "https://www.openstreetmap.org/way/148192834"
       }
     },
     {
       "type": "Feature",
-      "id": "sheraton-kota-kinabalu",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.07207,
+          5.98169
+        ]
+      },
+      "properties": {
+        "id": "handicraft-market",
+        "label": "P03",
+        "name": "海滨手工艺市场",
+        "local_name": "Handicraft Market / Anjung Kinabalu",
+        "region": "city",
+        "region_name": "市中心",
+        "category": "市集与购物",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#18796c",
+        "distance_km": 0.5,
+        "coordinate_precision": "旅行地图资料给出的市场概略位置；较低置信度，非确认入口",
+        "coordinate_source": "https://www.penang-traveltips.com/malaysia/sabah/kota-kinabalu/filipino-market.htm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.077306,
+          5.982194
+        ]
+      },
+      "properties": {
+        "id": "atkinson-clock-tower",
+        "label": "P04",
+        "name": "艾京生钟楼",
+        "local_name": "Atkinson Clock Tower",
+        "region": "city",
+        "region_name": "市中心",
+        "category": "历史与文化",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#18796c",
+        "distance_km": 0.7,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.wikidata.org/wiki/Q4281727"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.071667,
+          5.960556
+        ]
+      },
+      "properties": {
+        "id": "sabah-museum",
+        "label": "P05",
+        "name": "沙巴州博物馆",
+        "local_name": "Sabah Museum / Muzium Sabah",
+        "region": "south",
+        "region_name": "南侧海岸与近郊",
+        "category": "历史与文化",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#c48334",
+        "distance_km": 1.9,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.wikidata.org/wiki/Q2209383"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1076861,
+          5.9957912
+        ]
+      },
+      "properties": {
+        "id": "city-mosque",
+        "label": "P06",
+        "name": "亚庇市立清真寺（水上清真寺）",
+        "local_name": "Kota Kinabalu City Mosque",
+        "region": "north",
+        "region_name": "北侧市区",
+        "category": "建筑与宗教",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#657f45",
+        "distance_km": 4.3,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.openstreetmap.org/way/131390717"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0672152,
+          5.9599154
+        ]
+      },
+      "properties": {
+        "id": "state-mosque",
+        "label": "P07",
+        "name": "沙巴州立清真寺",
+        "local_name": "Sabah State Mosque / Masjid Negeri Sabah",
+        "region": "south",
+        "region_name": "南侧海岸与近郊",
+        "category": "建筑与宗教",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#c48334",
+        "distance_km": 2.1,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.openstreetmap.org/way/131388578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0892486,
+          5.9874339
+        ]
+      },
+      "properties": {
+        "id": "kk-wetlands",
+        "label": "P08",
+        "name": "亚庇湿地中心",
+        "local_name": "Kota Kinabalu Wetland Centre",
+        "region": "north",
+        "region_name": "北侧市区",
+        "category": "生态与动物",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#657f45",
+        "distance_km": 2.1,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.openstreetmap.org/way/289922329"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9982148,
+          5.9741882
+        ]
+      },
+      "properties": {
+        "id": "manukan",
+        "label": "P09",
+        "name": "马努干岛",
+        "local_name": "Pulau Manukan",
+        "region": "islands",
+        "region_name": "近海岛屿",
+        "category": "海岛与海上活动",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#357c99",
+        "distance_km": 8.3,
+        "coordinate_precision": "OSM岛屿代表点，不是靠岸码头或浮潜下水点",
+        "coordinate_source": "https://www.openstreetmap.org/way/26553413"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0060023,
+          6.0094942
+        ]
+      },
+      "properties": {
+        "id": "sapi",
+        "label": "P10",
+        "name": "沙比岛",
+        "local_name": "Pulau Sapi",
+        "region": "islands",
+        "region_name": "近海岛屿",
+        "category": "海岛与海上活动",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#357c99",
+        "distance_km": 8.2,
+        "coordinate_precision": "OSM岛屿代表点，不是靠岸码头或浮潜下水点",
+        "coordinate_source": "https://www.openstreetmap.org/relation/14368025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0137608,
+          5.9664646
+        ]
+      },
+      "properties": {
+        "id": "mamutik",
+        "label": "P11",
+        "name": "马穆迪岛",
+        "local_name": "Pulau Mamutik",
+        "region": "islands",
+        "region_name": "近海岛屿",
+        "category": "海岛与海上活动",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#357c99",
+        "distance_km": 6.7,
+        "coordinate_precision": "OSM岛屿代表点，不是靠岸码头或浮潜下水点",
+        "coordinate_source": "https://www.openstreetmap.org/way/158041204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2038427,
+          5.9737112
+        ]
+      },
+      "properties": {
+        "id": "mari-mari",
+        "label": "P12",
+        "name": "Mari Mari 文化村",
+        "local_name": "Mari Mari Cultural Village",
+        "region": "east",
+        "region_name": "东侧近郊",
+        "category": "历史与文化",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#8e6593",
+        "distance_km": 14.5,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.openstreetmap.org/node/6046961944"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2036147,
+          6.0009938
+        ]
+      },
+      "properties": {
+        "id": "kokol-hill",
+        "label": "P13",
+        "name": "可可山区域",
+        "local_name": "Kokol Hill",
+        "region": "east",
+        "region_name": "东侧近郊",
+        "category": "山地与风景",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#8e6593",
+        "distance_km": 14.7,
+        "coordinate_precision": "OSM山峰代表点，仅表达区域；场地和集合点未选",
+        "coordinate_source": "https://www.openstreetmap.org/node/12057272144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0686204,
+          5.8476392
+        ]
+      },
+      "properties": {
+        "id": "lok-kawi",
+        "label": "P14",
+        "name": "洛卡威野生动物园",
+        "local_name": "Lok Kawi Wildlife Park",
+        "region": "south",
+        "region_name": "南侧海岸与近郊",
+        "category": "生态与动物",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#c48334",
+        "distance_km": 14.5,
+        "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+        "coordinate_source": "https://www.openstreetmap.org/way/469530319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.54115,
+          6.008898
+        ]
+      },
+      "properties": {
+        "id": "kinabalu-park",
+        "label": "P15",
+        "name": "神山公园总部园区",
+        "local_name": "Kinabalu Park — Headquarters area",
+        "region": "mountains",
+        "region_name": "神山与昆达山",
+        "category": "山地与风景",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#676f9d",
+        "distance_km": 51.9,
+        "coordinate_precision": "AntWeb/Field Museum 采集记录的总部园区坐标；非确认售票口",
+        "coordinate_source": "https://www.antweb.org/locality.do?code=tc1357712022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5913566,
+          6.0164034
+        ]
+      },
+      "properties": {
+        "id": "desa-dairy",
+        "label": "P16",
+        "name": "昆达山德萨牧场",
+        "local_name": "Desa Cattle Dairy Farm",
+        "region": "mountains",
+        "region_name": "神山与昆达山",
+        "category": "山地与风景",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#676f9d",
+        "distance_km": 57.5,
+        "coordinate_precision": "OSM牧场区域代表点；非确认入口或停车位",
+        "coordinate_source": "https://www.openstreetmap.org/node/7893015023"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6245849,
+          5.4526327
+        ]
+      },
+      "properties": {
+        "id": "klias-river",
+        "label": "P17",
+        "name": "Klias 河红树林游船",
+        "local_name": "Klias River / Kota Klias",
+        "region": "far-wetlands",
+        "region_name": "远郊湿地",
+        "category": "生态与动物",
+        "kind": "place",
+        "status": "candidate",
+        "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+        "color": "#a26452",
+        "distance_km": 76.6,
+        "coordinate_precision": "OSM Kota Klias 村代表点；待选运营方后替换为实际集合码头",
+        "coordinate_source": "https://www.openstreetmap.org/node/369492385"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -81,10 +459,60 @@
         ]
       },
       "properties": {
+        "id": "sheraton-kota-kinabalu",
+        "label": "H",
         "name": "亚庇喜来登酒店",
         "kind": "hotel",
+        "color": "#b7682d",
+        "status": "reference",
+        "notes": "用户指定的住宿落脚点，未记录预订或日期。官网列入住15:00、退房12:00，且无机场班车；接送按汽车/出租车规划，费用待询价。",
+        "coordinate_precision": "万豪官网 VIEW MAP 链接给出的酒店位置；车道与上车点尚未现场确认",
         "coordinate_source": "https://www.google.com/maps/search/?api=1&gl=US&hl=en&query=5.977695163038609,116.07290393617629",
-        "checked_at": "2026-10-21"
+        "distance_km": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.051328,
+          5.92306
+        ]
+      },
+      "properties": {
+        "id": "bki-terminal-1",
+        "label": "A",
+        "name": "亚庇国际机场 T1",
+        "kind": "airport",
+        "color": "#334a50",
+        "status": "reference",
+        "notes": "BKI T1是待航班确认的参考落脚点，尚未确认实际航站楼或接送车道。无航班日期和时刻，机场往返单独规划，不混入日游时间表；入境、取行李、值机和提前到机场的时间不包含在道路耗时中。",
+        "coordinate_precision": "OSM航站楼建筑代表点；需核对航班实际航站楼、到达/出发楼层和接送车道",
+        "coordinate_source": "https://mapy.com/en/?id=1056302676&source=osm",
+        "distance_km": 6.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0790879,
+          5.9901962
+        ]
+      },
+      "properties": {
+        "id": "jesselton-point",
+        "label": "J",
+        "name": "Jesselton Point 出海码头",
+        "kind": "jetty",
+        "color": "#334a50",
+        "status": "reference",
+        "notes": "近海岛屿的主要出发码头参考；尚未选船票或运营方。",
+        "coordinate_precision": "OSM码头建筑代表点，不是已确认售票柜台或登船口",
+        "coordinate_source": "https://www.openstreetmap.org/way/239700149",
+        "distance_km": 1.5
       }
     }
   ]

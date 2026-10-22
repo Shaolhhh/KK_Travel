@@ -1,0 +1,50 @@
+{
+  "id": "lok-kawi",
+  "name": "洛卡威野生动物园",
+  "local_name": "Lok Kawi Wildlife Park",
+  "aliases": [],
+  "coordinates": [
+    116.0686204,
+    5.8476392
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/way/469530319",
+  "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "生态与动物",
+  "summary": "由野生动物部门开发的园区，包含动物展示和植物区域。",
+  "fit": "有动物兴趣、愿意接受园区展示形式可考虑；想看野生栖息地则应另看河流游船。",
+  "duration_advice": "半天，含往返与步行（初筛规划建议，非预约时段）",
+  "access": "当前展区、步道、营业时间及喂食展示需向园区核实；不沿用旧报道的项目清单。",
+  "ticket_myr": null,
+  "ticket_basis": "本轮未核实当前票价；旧攻略价格不作为本次预算。",
+  "transport": "酒店以南 Putatan/Penampang 方向；入选后确认车辆往返。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Lok Kawi Wildlife Park。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：洛卡威野生动物园",
+      "url": "https://sabahtourism.com/destination/lok-kawi-wildlife-park/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "south",
+    "effort": "步行较多",
+    "tags": [
+      "动物",
+      "植物",
+      "家庭兴趣"
+    ],
+    "caveat": "属于园区参观，不能等同野外观察；不承诺见到特定动物或表演。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

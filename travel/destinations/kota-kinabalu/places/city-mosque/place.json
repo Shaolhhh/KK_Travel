@@ -1,0 +1,50 @@
+{
+  "id": "city-mosque",
+  "name": "亚庇市立清真寺（水上清真寺）",
+  "local_name": "Kota Kinabalu City Mosque",
+  "aliases": [],
+  "coordinates": [
+    116.1076861,
+    5.9957912
+  ],
+  "coordinate_source": "https://www.openstreetmap.org/way/131390717",
+  "coordinate_precision": "OSM地标代表点；未核实入口、泊车或集合位置",
+  "coordinate_checked_at": "2026-10-22",
+  "checked_at": "2026-10-22",
+  "category": "建筑与宗教",
+  "summary": "里卡士湾一带的清真寺，环绕的人工水面形成建筑倒影。",
+  "fit": "偏好建筑和倒影摄影可考虑；宗教空间参观需要配合礼拜、衣着与行为要求。",
+  "duration_advice": "45–75分钟（初筛规划建议，非预约时段）",
+  "access": "旅游局列08:00–12:00、14:00–15:30、16:00–17:00，周五不开放游客参观；需登记，时段可能调整。",
+  "ticket_myr": null,
+  "ticket_basis": "旅游局列入场RM5，罩袍租借RM5–10；不同费用不得只算一项，执行价临行复查。",
+  "transport": "酒店东北方向，通常需单独安排地面交通。",
+  "food": "入选后再筛选具体餐饮，不预设已选商家。",
+  "shopping": "尚未确定购物目标。",
+  "photo": {
+    "morning": "入选后按日期、开放范围和实际机位细化；当前未指定拍照时段。",
+    "afternoon": "日落、云量及场地拍摄规则需结合具体日期确认。"
+  },
+  "equipment": "轻便雨具、饮水与适合步行的鞋；海上、山地或湿地装备待活动选定后细化。",
+  "language": "向司机或工作人员展示英文名称：Kota Kinabalu City Mosque。",
+  "culture_prompt": "留意导览中的社群名称、地方生活与旅游展示的关系；未游览，不写成实际经历。",
+  "sources": [
+    {
+      "title": "沙巴旅游局：市立清真寺",
+      "url": "https://sabahtourism.com/destination/city-mosque/",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "research_stage": "discovery",
+  "discovery": {
+    "region": "north",
+    "effort": "轻松",
+    "tags": [
+      "建筑",
+      "宗教",
+      "拍照"
+    ],
+    "caveat": "与沙巴州立清真寺是两个不同地点；穿着与外部拍摄同样需尊重管理要求。"
+  },
+  "provenance_note": "2026-10-22为正式目的地初筛更新；事实与规划建议分开，未导入模拟日程。"
+}

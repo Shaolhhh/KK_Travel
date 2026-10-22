@@ -1,22 +1,108 @@
 {
+  "stage": "discovery",
+  "updated_at": "2026-10-22",
   "items": [
+    {
+      "place_id": "tanjung-aru",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "gaya-street",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "handicraft-market",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
     {
       "place_id": "atkinson-clock-tower",
       "status": "candidate",
-      "reason": "已研究的示例候选；用户尚未确认是否入选正式旅程。",
-      "evidence": "2026-10-22将测试与实际旅行资料分开；无正式景点选择。"
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
     },
     {
       "place_id": "sabah-museum",
       "status": "candidate",
-      "reason": "已研究的示例候选；用户尚未确认是否入选正式旅程。",
-      "evidence": "2026-10-22将测试与实际旅行资料分开；无正式景点选择。"
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
     },
     {
-      "place_id": "tanjung-aru",
+      "place_id": "city-mosque",
       "status": "candidate",
-      "reason": "已研究的示例候选；用户尚未确认是否入选正式旅程。",
-      "evidence": "2026-10-22将测试与实际旅行资料分开；无正式景点选择。"
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "state-mosque",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "kk-wetlands",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "manukan",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "sapi",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "mamutik",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "mari-mari",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "kokol-hill",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "lok-kawi",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "kinabalu-park",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "desa-dairy",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
+    },
+    {
+      "place_id": "klias-river",
+      "status": "candidate",
+      "reason": "正式目的地初筛候选；用户尚未确认是否入选。",
+      "evidence": "用户要求先了解目的地与候选景点，暂不安排具体日程。"
     }
   ]
 }
